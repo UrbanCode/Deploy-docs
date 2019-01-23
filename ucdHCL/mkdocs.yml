@@ -1,12 +1,21 @@
-site_name: UrbanCode Deploy
+site_name: 'UrbanCode Deploy'
+site_description: 'UrbanCode documentation.'
+site_author: 'UrbanCode'
 
-docs_dir: docs
+site_url: http://uc-doc-test.s3-website-us-east-1.amazonaws.com/deploy/701/
+repo_url: https://github.com/IBM-UrbanCode
 
-theme: windmill
+theme:
+  name: null
+  custom_dir: C:\Users\IBM_ADMIN\Documents\GitHub\mkdocs-windmill\mkdocs_windmill
+  # Copy settings from mkdocs_theme.yml, which is ignored by custom_dir themes.
+  static_templates: [404.html]
+  search_index_only: true
+  include_search_page: true
 
 nav:
 - Welcome: ucd_version_welcome.md
-- Overview: # 
+- Overview: #
   - HCL UrbanCode Deploy: com.ibm.udeploy.doc/topics/intro_ch.md
   - Systems and topology overview: com.ibm.udeploy.doc/topics/ov_systems.md
   - Elements overview: com.ibm.udeploy.doc/topics/ov_elements.md
@@ -16,7 +25,7 @@ nav:
   - Security considerations for IBM UrbanCode Deploy: com.ibm.udeploy.doc/topics/c_securityover.md
   - IBM and accessibility: com.ibm.udeploy.doc/topics/ceIBMaccess.md
   - Notices for HCL UrbanCode Deploy: com.ibm.udeploy.doc/topics/notices.md
-- Tutorials: 
+- Tutorials:
   - Introduction to the tutorials: com.ibm.udeploy.doc/topics/c_node_tutorials.md
   - helloworld:
     - Create a simple helloWorld deployment: com.ibm.udeploy.tutorial.doc/topics/quickstart_abstract.md
@@ -29,7 +38,7 @@ nav:
     - Lesson 5 Create an application process: com.ibm.udeploy.tutorial.doc/topics/quickstart_app_process.md
     - Lesson 6 Deploy the component: com.ibm.udeploy.tutorial.doc/topics/quickstart_run_app.md
     - Summary: com.ibm.udeploy.tutorial.doc/topics/quickstart_summary.md
-  - Simple web application: 
+  - Simple web application:
     - Deploying a simple web application: com.ibm.udeploy.tutorial.doc/topics/webapp_abstract.md
     - Introduction: com.ibm.udeploy.tutorial.doc/topics/webapp_intro.md
     - Configuring the agent and target system: com.ibm.udeploy.tutorial.doc/topics/webapp_configure_agent.md
@@ -40,7 +49,7 @@ nav:
     - Lesson 5 Deploying the application components: com.ibm.udeploy.tutorial.doc/topics/webapp_deploy.md
     - Lesson 6 Updating the application: com.ibm.udeploy.tutorial.doc/topics/webapp_update.md
     - Summary: com.ibm.udeploy.tutorial.doc/topics/webapp_summary.md
-  - Deploying snapshots: 
+  - Deploying snapshots:
     - Creating and deploying snapshots: com.ibm.udeploy.tutorial.doc/topics/snapshot_abstract.md
     - Introduction: com.ibm.udeploy.tutorial.doc/topics/snapshot_intro.md
     - Configuring the server and target system: com.ibm.udeploy.tutorial.doc/topics/snapshot_configure_agent.md
@@ -48,17 +57,17 @@ nav:
     - Lesson 2 Creating an environment: com.ibm.udeploy.tutorial.doc/topics/snapshot_environment.md
     - Lesson 3 Deploying the snapshots: com.ibm.udeploy.tutorial.doc/topics/snapshot_deploy.md
     - Summary: com.ibm.udeploy.tutorial.doc/topics/snapshot_summary.md
-- Installing: 
+- Installing:
   - Overview: com.ibm.udeploy.install.doc/topics/install_ch.md
   - System requirements and performance considerations: com.ibm.udeploy.install.doc/topics/sysRequire.md
   - Firewall and communication configuration: com.ibm.udeploy.install.doc/topics/agent_firewalls.md
-  - Installing the database: 
+  - Installing the database:
     - Overview: com.ibm.udeploy.install.doc/topics/DBinstall.md
     - Configuring a DB2 database: com.ibm.udeploy.install.doc/topics/dbinstall_db2.md
     - Configuring an Oracle database: com.ibm.udeploy.install.doc/topics/dbinstall_oracle.md
     - Configuring a MySQL or MariaDB database: com.ibm.udeploy.install.doc/topics/dbinstall_mysql.md
     - Configuring a Microsoft SQL Server database: com.ibm.udeploy.install.doc/topics/dbinstall_sqlserver.md
-  - Installing the server: 
+  - Installing the server:
     - Overview: com.ibm.udeploy.install.doc/topics/serverInstall.md
     - Installing the server in interactive mode: com.ibm.udeploy.install.doc/topics/server_install_interactive.md
     - Installing the server in silent mode: com.ibm.udeploy.install.doc/topics/server_install_silent.md
@@ -74,14 +83,14 @@ nav:
     - Upgrading the containerized server: com.ibm.udeploy.install.doc/topics/docker_upgrade.md
     - Scaling the UrbanCode Deploy server in a Kubernetes cluster: com.ibm.udeploy.install.doc/topics/docker_scale.md
     - Helm chart configuration parameters: com.ibm.udeploy.install.doc/topics/docker_helmparametersdita.md
-  - Installing the blueprint designer: 
+  - Installing the blueprint designer:
     - Overview: com.ibm.edt.doc/topics/install_ch_bpd.md
     - Installing the engine: com.ibm.edt.doc/topics/install_engine.md
     - Installing a standalone engine: com.ibm.edt.doc/topics/install_engine_standalone.md
     - Installing an engine in interactive mode: com.ibm.edt.doc/topics/install_engine_interactive.md
     - Installing an engine in silent mode: com.ibm.edt.doc/topics/install_engine_silent.md
     - Extending an existing OpenStack engine: com.ibm.edt.doc/topics/extending_an_engine_for_openstack.md
-  - Installing the blueprint design server: 
+  - Installing the blueprint design server:
     - Overview: com.ibm.edt.doc/topics/install_server_bds.md
     - Blueprint design server database configuration: com.ibm.edt.doc/topics/install_database_bds_ov.md
     - Configuring a DB2 database for the blueprint design server: com.ibm.edt.doc/topics/install_database_db2_bds.md
@@ -103,7 +112,7 @@ nav:
     - Backing up engines: com.ibm.edt.doc/topics/backup_engine.md
     - Restoring a backup: com.ibm.udeploy.doc/topics/arch_data_recovery.md
     - Installing test fixes to the engine: com.ibm.edt.doc/topics/engine_install_testfix.md
-  - Installing agents: 
+  - Installing agents:
     - Ovreview: com.ibm.udeploy.install.doc/topics/agent_install_ov.md
     - Installing agents remotely: com.ibm.udeploy.doc/topics/agent_installremote.md
     - Installing agents from the command line: com.ibm.udeploy.install.doc/topics/agentInstall.md
@@ -125,14 +134,14 @@ nav:
     - Installing agent relays in interactive mode: com.ibm.udeploy.install.doc/topics/install_agentrelay_interactive.md
     - Installing agent relays in silent mode: com.ibm.udeploy.install.doc/topics/install_agentrelay_silent.md
   - Installing plug-ins: com.ibm.udeploy.admin.doc/topics/settings_plugins.md
-  - Starting UrbanCode Deploy: 
+  - Starting UrbanCode Deploy:
     - Overview: com.ibm.udeploy.install.doc/topics/runProduct.md
     - Starting and stopping the server: com.ibm.udeploy.install.doc/topics/run_server.md
     - Starting agents: com.ibm.udeploy.install.doc/topics/run_agent.md
     - Starting z/OS agents from the z/OS UNIX command line: com.ibm.udeploy.install.doc/topics/zos_start_agent.md
     - Starting agent relays: com.ibm.udeploy.install.doc/topics/run_relay.md
     - Accessing HCL UrbanCode Deploy: com.ibm.udeploy.install.doc/topics/access_server.md
-  - Backing up and recovering: 
+  - Backing up and recovering:
     - Overview: com.ibm.udeploy.install.doc/topics/backup_recover.md
     - Backing up the server: com.ibm.udeploy.install.doc/topics/server_backup.md
     - Installing and uninstalling test fixes \(patches\ from the server: com.ibm.udeploy.install.doc/topics/server_install_testfix.md
@@ -160,12 +169,12 @@ nav:
   - Migrating engines that you installed with HCL UrbanCode Deploy: com.ibm.edt.doc/topics/migrate_engine_ucdp_script.md
   - Upgrading engines that you extended: com.ibm.edt.doc/topics/upgrade_engine_extended.md
   - Moving blueprints and configuration files: com.ibm.edt.doc/topics/migrate_ov.md
-- Uninstalling: 
+- Uninstalling:
   - Overview: com.ibm.udeploy.install.doc/topics/uninstall_ch.md
   - Uninstalling the server: com.ibm.udeploy.install.doc/topics/server_uninstall.md
   - Uninstalling agents: com.ibm.udeploy.install.doc/topics/agent_uninstall.md
   - Uninstalling the blueprint design server: com.ibm.edt.doc/topics/uninstall_server_bds.md
-- Integrating: 
+- Integrating:
   - Overview: com.ibm.udeploy.doc/topics/integrat_ov.md
   - Connecting to clouds through the blueprint designer:
     - Overview: com.ibm.edt.doc/topics/security_cloud_connection.md
@@ -205,7 +214,7 @@ nav:
     - Registering Azure custom images with the cloud discovery service: com.ibm.edt.doc/topics/integrate_azure_private.md
     - Configuring images for use with the blueprint designer: com.ibm.edt.doc/topics/cloud_connect_vm_requirements.md
     - Connecting engines to Keystone servers: com.ibm.udeploy.install.doc/topics/install_engine_new_keystone.md
-  - Integrating with Chef: 
+  - Integrating with Chef:
     - Overview: com.ibm.edt.doc/topics/integrate_chef.md
     - Creating Chef-compatible images: com.ibm.edt.doc/topics/integrate_chef_images.md
     - Updating Chef-compatible images: com.ibm.edt.doc/topics/cloud_update_chef_images.md
@@ -220,13 +229,13 @@ nav:
   - Installing plug-ins into IBM Bluemix DevOps Connect: com.ibm.udeploy.doc/topics/installIntegrate_UCR_cloud_plugin.md
   - Integrating IBM UrbanCode Deploy with UrbanCode Mobile: com.ibm.udeploy.doc/topics/installIntegrate_UCD_cloud_sync.md
   - Configuring the UrbanCode Mobile app: com.ibm.udeploy.doc/topics/installIntegrate_UCR_mobile.md
-- Configuring: 
+- Configuring:
   - Overview: com.ibm.udeploy.doc/topics/c_node_configuring.md
-  - High availability and failover: 
+  - High availability and failover:
     - High availability overview: com.ibm.udeploy.doc/topics/ha_overview.md
     - High-availability server processes: com.ibm.udeploy.admin.doc/topics/ha_servers.md
     - High-availability agent communication: com.ibm.udeploy.admin.doc/topics/ha_agents.md
-  - Setting up high-availability clusters: 
+  - Setting up high-availability clusters:
     - Overview: com.ibm.udeploy.doc/topics/server_install_clustered.md
     - Setting up clusters of servers: com.ibm.udeploy.doc/topics/ha_config_server.md
     - Adding servers to clusters: com.ibm.udeploy.doc/topics/ha_add_server.md
@@ -240,7 +249,7 @@ nav:
   - Configuring disaster recovery for the blueprint design server: com.ibm.edt.doc/topics/dr_config_bds.md
   - Configuring agents for failover: com.ibm.udeploy.install.doc/topics/configure_agent_failover.md
   - Configuring agent relays for failover: com.ibm.udeploy.install.doc/topics/configure_relay_failover.md
-  - Server settings and configuration: 
+  - Server settings and configuration:
     - Overview: com.ibm.udeploy.doc/topics/settings_ch.md
     - Increasing the amount of memory that is available to the server: com.ibm.udeploy.doc/topics/server_memory.md
     - Modifying the context root of the server: com.ibm.udeploy.doc/topics/server_contextroot.md
@@ -259,7 +268,7 @@ nav:
     - Overview: com.ibm.udeploy.admin.doc/topics/prefs_ov.md
     - Setting the language and display options for the server: com.ibm.udeploy.admin.doc/topics/prefs_language.md
     - Setting the teams for your account: com.ibm.udeploy.admin.doc/topics/prefs_teams.md
-  - Blueprint design server configuration: 
+  - Blueprint design server configuration:
     - Overview: com.ibm.edt.doc/topics/c_node_administering_bds.md
     - Configuring messaging with event sources: com.ibm.udeploy.admin.doc/topics/messaging_ov.md
     - Configuring deployment sequence settings: com.ibm.udeploy.admin.doc/topics/config_deploy_sequence.md
@@ -267,12 +276,12 @@ nav:
     - Caching artifacts on the cloud discovery service: com.ibm.edt.doc/topics/cds_cache.md
     - Changing the local Git server password: com.ibm.edt.doc/topics/blueprint_gitblit.md
     - Creating a HCL UrbanCode Deploy timeout configuration file: com.ibm.edt.doc/topics/timeout_config.md
-  - Blueprint design server cost settings: 
+  - Blueprint design server cost settings:
     - Overview: com.ibm.edt.doc/topics/cost_ov.md
     - Importing cost information from clouds: com.ibm.edt.doc/topics/cost_center_import.md
     - Specifying costs for cloud resources manually: com.ibm.edt.doc/topics/cost_center_clouds.md
     - Specifying component costs: com.ibm.edt.doc/topics/cost_center_components.md
-  - Agents and agent relay configuration: 
+  - Agents and agent relay configuration:
     - Overview: com.ibm.udeploy.doc/topics/configure_agents.md
     - Changing or updating the JRE of agents: com.ibm.udeploy.doc/topics/jre_change_agent.md
     - Changing passwords for the agent relay keystores: com.ibm.udeploy.doc/topics/keystore_agentrelay_change_password.md
@@ -284,7 +293,7 @@ nav:
     - Managing agents remotely: com.ibm.udeploy.doc/topics/agent_manageremote.md
     - Setting agent properties: com.ibm.udeploy.doc/topics/agent_properties.md
     - Creating and managing agent pools: com.ibm.udeploy.doc/topics/resources_agentPools.md
-  - License management: 
+  - License management:
     - Overview: com.ibm.udeploy.doc/topics/licenseManage.md
     - License scenarios: com.ibm.udeploy.install.doc/topics/license_scenarios.md
     - Mixed mode licensing: com.ibm.udeploy.doc/topics/mixed_mode_licensing.md
@@ -303,14 +312,14 @@ nav:
     - Sharing secured properties among servers: com.ibm.udeploy.install.doc/topics/ssl_mutual_authServers.md
     - Configuring SSL on Apache Tomcat and LDAP servers: com.ibm.udeploy.doc/topics/ssl_config.md
     - Implementing custom trust stores: com.ibm.udeploy.admin.doc/topics/ssl_truststores.md
-  - Authorization realms: 
+  - Authorization realms:
     - Overview: com.ibm.udeploy.admin.doc/topics/security_config.md
     - Creating an internal storage authorization realm: com.ibm.udeploy.admin.doc/topics/security_config_internal_realm.md
     - Creating an LDAP authorization realm: com.ibm.udeploy.admin.doc/topics/security_config_ldap_realm.md
     - Creating an SSO authorization realm: com.ibm.udeploy.admin.doc/topics/security_config_SSO_realm.md
     - Creating groups manually: com.ibm.udeploy.admin.doc/topics/security_groups.md
     - Adding users to groups manually: com.ibm.udeploy.admin.doc/topics/security_groupsAddUsers.md
-  - Authentication realms: 
+  - Authentication realms:
     - Overview: com.ibm.udeploy.admin.doc/topics/security_auth.md
     - Creating authentication realms: com.ibm.udeploy.admin.doc/topics/security_auth_create.md
     - Creating users manually: com.ibm.udeploy.admin.doc/topics/security_user_create.md
@@ -322,7 +331,7 @@ nav:
     - Setting server configuration security: com.ibm.udeploy.admin.doc/topics/security_system.md
     - Permission reference: com.ibm.udeploy.admin.doc/topics/security_roles_permission_ref.md
     - Permissions reference for using application templates: com.ibm.udeploy.admin.doc/topics/app_template_ref.md
-  - Security teams: 
+  - Security teams:
     - Overview: com.ibm.udeploy.admin.doc/topics/security_teams.md
     - Creating teams: com.ibm.udeploy.admin.doc/topics/security_teams_create.md
     - Assigning users to teams: com.ibm.udeploy.admin.doc/topics/security_teams_users.md
@@ -361,7 +370,7 @@ nav:
   - Overview: com.ibm.udeploy.doc/topics/part_using.md
   - Components:
     - Overview: com.ibm.udeploy.doc/topics/comp_ch.md
-    - Creating components: 
+    - Creating components:
       - Overview: com.ibm.udeploy.doc/topics/comp_create.md
       - Getting started with creating components: com.ibm.udeploy.doc/topics/getstart_component_create.md
       - Creating components from the file system: com.ibm.udeploy.doc/topics/comp_create_filesystem.md
@@ -460,7 +469,7 @@ nav:
   - Application processes: com.ibm.udeploy.doc/topics/appl_processes_intro.md
   - Application blueprints: com.ibm.udeploy.doc/topics/app_blueprint.md
   - Creating application blueprints: com.ibm.udeploy.doc/topics/app_blueprint_create.md
-  - Snapshots: 
+  - Snapshots:
     - Overview: com.ibm.udeploy.doc/topics/app_snapshot.md
     - Creating snapshots: com.ibm.udeploy.doc/topics/app_snapshot_create.md
     - Deploying snapshots: com.ibm.udeploy.doc/topics/app_snapshot_deploy.md
@@ -634,7 +643,7 @@ nav:
     - Creating z/OS component versions: com.ibm.udeploy.doc/topics/zos_runtools.md
     - Creating z/OS component versions from JCL: com.ibm.udeploy.doc/topics/zos_runtools_jcl.md
     - Creating z/OS component versions from z/OS UNIX System Services: com.ibm.udeploy.doc/topics/zos_runtools_uss.md
-- Reporting: 
+- Reporting:
   - Overview: com.ibm.udeploy.doc/topics/reports_ch.md
   - Deployment reports: com.ibm.udeploy.doc/topics/reports_deploy_intro.md
   - Security reports: com.ibm.udeploy.doc/topics/reports_security_intro.md
@@ -642,9 +651,9 @@ nav:
   - Saving and printing reports: com.ibm.udeploy.doc/topics/reports_saving.md
   - Saving report filters: com.ibm.udeploy.doc/topics/reports_saving_filters.md
   - Monitor operating details: com.ibm.udeploy.doc/topics/Mbeans_metrics.md
-- Extending product function: 
+- Extending product function:
   - Overview: com.ibm.udeploy.doc/topics/c_node_extending.md
-  - Plug-ins: 
+  - Plug-ins:
     - Overview: com.ibm.udeploy.reference.doc/topics/plugin_ch.md
     - Creating plug-ins: com.ibm.udeploy.reference.doc/topics/reference_plugins_create.md
     - The plugin.xml file for automation plug-ins: com.ibm.udeploy.reference.doc/topics/ref_create_pluginxml.md
@@ -663,19 +672,19 @@ nav:
     - Step properties: com.ibm.udeploy.reference.doc/topics/ref_example_step_properties.md
     - Step commands: com.ibm.udeploy.reference.doc/topics/ref_example_step_commands.md
     - create_file.groovy: com.ibm.udeploy.reference.doc/topics/ref_example_groovy.md
-  - Notification templates: 
+  - Notification templates:
     - Creating notification templates: com.ibm.udeploy.reference.doc/topics/notification_ov.md
     - Parameters for notification templates: com.ibm.udeploy.reference.doc/topics/notification_params.md
-- REST API reference: 
+- REST API reference:
   - Overview: com.ibm.udeploy.reference.doc/topics/rest_api_ref_overview.md
   - Running REST commands: com.ibm.udeploy.reference.doc/topics/rest_api_ref_using.md
   - Examples of REST API commands: com.ibm.udeploy.reference.doc/topics/rest_api_ref_examples.md
   - Authenticating for REST commands: com.ibm.udeploy.reference.doc/topics/rest_api_ref_authenticating.md
   - Deploying applications by using REST commands an example: com.ibm.udeploy.reference.doc/topics/rest_api_ref_example.md
   - Provisioning environments by using REST commands an example: com.ibm.udeploy.reference.doc/topics/rest_api_ref_provision_example.md
-  - REST commands for the HCL UrbanCode Deploy server: 
+  - REST commands for the HCL UrbanCode Deploy server:
     - Overview: com.ibm.udeploy.reference.doc/topics/rest_api_ref_commands.md
-    - agentCLI resource: 
+    - agentCLI resource:
       - agentCLI resource: com.ibm.udeploy.api.doc/topics/rest_cli_agentcli.md
       - Add a tag to an agent: com.ibm.udeploy.api.doc/topics/rest_cli_agentcli_tag_put.md
       - Add an agent to a team: com.ibm.udeploy.api.doc/topics/rest_cli_agentcli_teams_put.md
@@ -705,7 +714,7 @@ nav:
       - Get information about an agent pool: com.ibm.udeploy.api.doc/topics/rest_cli_agentpool_info_put.md
       - Remove an agent from an agent pool: com.ibm.udeploy.api.doc/topics/rest_cli_agentpool_removeagentfrompool_delete.md
       - Remove an agent pool from a team: com.ibm.udeploy.api.doc/topics/rest_cli_agentpool_teams_delete.md
-    - application resource: 
+    - application resource:
       - application resource: com.ibm.udeploy.api.doc/topics/rest_cli_application.md
       - Add a component to an application.: com.ibm.udeploy.api.doc/topics/rest_cli_application_addcomponenttoapp_put.md
       - Add a tag to an application: com.ibm.udeploy.api.doc/topics/rest_cli_application_tag_put.md
@@ -724,7 +733,7 @@ nav:
       - Remove a tag from an application: com.ibm.udeploy.api.doc/topics/rest_cli_application_tag_delete.md
       - Remove an application from a team: com.ibm.udeploy.api.doc/topics/rest_cli_application_teams_delete.md
       - Set a property on an application: com.ibm.udeploy.api.doc/topics/rest_cli_application_propvalue_put.md
-    - applicationProcess resource: 
+    - applicationProcess resource:
       - Overview: com.ibm.udeploy.api.doc/topics/rest_cli_applicationprocess.md
       - Create an application process: com.ibm.udeploy.api.doc/topics/rest_cli_applicationprocess_create_put.md
       - Get all application processes of an application: com.ibm.udeploy.api.doc/topics/rest_cli_applicationprocess_get.md
@@ -1365,14 +1374,14 @@ nav:
   - Setting up Terraform: com.ibm.udeploy.reference.doc/topics/terraform_setup.md
   - HCL UrbanCode Deploy Terraform provider: com.ibm.udeploy.reference.doc/topics/terraform_provider_ref.md
   - HCL UrbanCode Deploy Terraform provisioner: com.ibm.udeploy.reference.doc/topics/terraform_provisioner_ref.md
-- Troubleshooting and support: 
+- Troubleshooting and support:
   - Troubleshooting process overview: com.ibm.udeploy.doc/topics/c_troubleshootingoverview.md
   - General product troubleshooting: com.ibm.udeploy.doc/topics/c_troubleshooting_and_support_resources.md
   - General information to collect: com.ibm.udeploy.doc/topics/troubleshoot_infocollect.md
   - Types of problems and checks to perform: com.ibm.udeploy.doc/topics/troubleshoot_problemtypes.md
   - Searching online knowledge bases: com.ibm.udeploy.doc/topics/t_searching_kbs.md
   - Contacting HCL Software Support: com.ibm.udeploy.doc/topics/t_contactingibmsoftwaresupport.md
-  - Support:  
+  - Support:
     - Support information for HCL UrbanCode Deploy: com.ibm.udeploy.doc/topics/c_latest_technote_ucd.md
     - Registering on the IBM Support Portal: com.ibm.udeploy.doc/topics/t_register_user.md
     - Accessing release information: com.ibm.udeploy.doc/topics/t_accessing_release_information.md
@@ -1386,14 +1395,14 @@ nav:
     - Automatically downloading audit log files: com.ibm.udeploy.doc/topics/troubleshoot_logDownload.md
     - Increasing the size of the log file: com.ibm.udeploy.doc/topics/troubleshoot_logsize.md
     - Determining the Java heap memory size: com.ibm.udeploy.doc/topics/troubleshoot_javaheapsize.md
-  - Troubleshooting the server and agents: 
+  - Troubleshooting the server and agents:
     - Overview: com.ibm.udeploy.doc/topics/trouble_serveragents_ov.md
     - Troubleshooting security and permissions: com.ibm.udeploy.doc/topics/trouble_permissions.md
     - Troubleshooting agent connections: com.ibm.udeploy.doc/topics/trouble_agent_connections.md
     - Troubleshooting problems on z/OS: com.ibm.udeploy.doc/topics/trouble_zos.md
     - Troubleshooting processes: com.ibm.udeploy.doc/topics/Basic_processes_troubleshoot.md
     - Troubleshooting plug-ins: com.ibm.udeploy.doc/topics/trouble_plugin.md
-  - Troubleshooting modeling and provisioning cloud environments: 
+  - Troubleshooting modeling and provisioning cloud environments:
     - Overview: com.ibm.udeploy.doc/topics/trouble_blueprints_ov.md
     - Troubleshooting cloud connections: com.ibm.edt.doc/topics/trouble_connections.md
     - Troubleshooting the blueprint design server: com.ibm.edt.doc/topics/trouble_design.md
@@ -1403,3 +1412,10 @@ nav:
     - Troubleshooting deployments: com.ibm.edt.doc/topics/trouble_deployments.md
 - Glossary: com.ibm.udeploy.doc/topics/glossary.md
 
+
+extra:
+  history_buttons: false
+  version: 7.0.1
+  article_nav_top: false
+  article_nav_bottom: false
+  logo: img\UClogo.png
