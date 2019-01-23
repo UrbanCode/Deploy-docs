@@ -7,8 +7,7 @@ Welcome to the UrbanCode Deploy documentation, where you can find information ab
 
 
 
-[Product overview](/com.ibm.deploy.doc/topics/intro_ch.md)
+[Product overview](com.ibm.udeploy.doc/topics/intro_ch/)
 
 
 Copyright HCL 2018
-
