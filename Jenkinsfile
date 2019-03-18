@@ -24,6 +24,9 @@ node ('docs') {
    stage ('Build') {
       // Relative directory where the theme is downloaded
       env.WINDMILL_DIR = 'theme/mkdocs_windmill'
+      
+      // Get mkdocs version
+      bat "mkdocs --version"
 
       // Build documentation
       bat "mkdocs build"
