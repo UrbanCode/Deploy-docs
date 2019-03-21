@@ -36,22 +36,3 @@ All of the resources on the HCL UrbanCode Deploy server are organized into the r
 
 A resource group is a logical collection of resources. Resource groups enable collections of resources to be easily reused. Resource groups can manage multi-tenant scenarios, for example, in which several servers share resources.
 
--   **[Getting started with creating resources](../topics/getstart_resource_create.md)**  
-Resources associate agents with components and, after they are mapped to an application environment, provide deployment targets.
--   **[Modifying the resource tree](../topics/resource_tree_modify.md)**  
-You can create, delete, and modify the contents of the resource tree.
--   **[Importing resources from WebSphere Application Server](../topics/resources_import_was.md)**  
-Use the WebSphere Application Server - Deploy plug-in to import information about an IBM WebSphere Application Server system into a collection of resources. Typically, importing information by using the plug-in takes less time than manually creating resources to match the IBM WebSphere Application Server.
--   **[Importing resources from WebSphere Portal](../topics/plugins_websphereportal_config_deploy.md)**  
-With the WebSphere Portal plug-in, you can discover resources for a portal cell and use plug-in steps to deploy artifacts.
--   **[Defining default user impersonation credentials](../topics/resources_impersonation.md)**  
-You can define default user impersonation credentials for a resource.
--   **[Resource templates](../topics/resources_templates.md)**  
-A resource template is a model for a group of resources. The template contains a hierarchy of resources, groups, and agent prototypes that is a starting point for creating new resources.
--   **[Agents](../topics/resources_agents.md)**  
-An agent is a lightweight process that runs on a deployment-target host and communicates with the HCL UrbanCode Deploy server.
--   **[Agent relays](../topics/arch_agent_relays.md)**  
-Agent relays coordinate communication between agents and the HCL UrbanCode Deploy server. Agent relays improve the performance of communication between the server and agents. Relays also allow agents to communicate through firewalls.
-
-**Parent topic:** [Modeling software deployment](../topics/part_using.md)
-

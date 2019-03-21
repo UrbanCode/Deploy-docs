@@ -31,5 +31,3 @@ Confirm that your role has access to an application template and the permissions
 10.  If you specified environment templates, add agents to them. Drag an agent onto each agent prototype that is shown in the Environments pane. If you drag multiple agents onto an agent prototype, a copy of the resource tree for the agent prototype is created for each agent.
 11.  Click **Save**. 
 
-**Parent topic:** [Application templates](../topics/app_template.md)
-

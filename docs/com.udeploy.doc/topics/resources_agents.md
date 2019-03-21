@@ -22,5 +22,3 @@ An agent prototype is a resource that represents one or more agents that are not
 
 If you create a resource template instead of importing a resource template from the cloud, you can specify an **Agent Name Pattern** for any agent prototype that you add to the resource template. The agent name pattern can include the properties `${p:application.name}` and `${p:environment.name}`, but no other properties or wildcards.
 
-**Parent topic:** [Resources](../topics/resources_ch.md)
-

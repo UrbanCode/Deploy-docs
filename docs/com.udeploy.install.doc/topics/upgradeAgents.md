@@ -8,8 +8,6 @@ Use the **Upgrade** action to upgrade agents that have a status of Upgrade Recom
 You can upgrade agents by stopping them and running the installation program for the new version.
 -   **[Upgrading agents in silent mode](../../com.udeploy.install.doc/topics/upgrade_agent_silent.md)**  
 You can upgrade agents by specifying the installation properties in a text file.
--   **[Upgrading IBM z/OS agents](../../com.udeploy.install.doc/topics/upgrade_zOS_agents.md)**  
-You can upgrade IBM® z/OS® agents. However, you must upgrade the server before you upgrade the agents.
 
 **Parent topic:** [Upgrading and migrating](../../com.udeploy.doc/topics/c_node_upgrading.md)
 

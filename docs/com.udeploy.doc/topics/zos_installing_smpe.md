@@ -18,5 +18,3 @@ Install and configure an instance of the agent. See [Installing agents from the 
 
 **Parent topic:** [Installing the z/OS agent](../../com.udeploy.install.doc/topics/zos_installing_ov.md)
 
-**Parent topic:** [Installing the z/OS agent](../../com.udeploy.install.doc/topics/zos_installing_ov.md)
-

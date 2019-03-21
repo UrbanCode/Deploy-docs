@@ -17,7 +17,7 @@ udclient [\[global-args...\]](../../com.udeploy.reference.doc/topics/cli_command
 |---------|----|--------|-----------|
 |component|string|true|Name or ID of the component|
 |inactive|boolean|false|Specify true to include inactive versions; the default is false|
-|numResults|int|false|Specify a number greater than 0 to limit the number of results. If numResults is not specified, or is given to be < 1, no limit is applied.|
+|numResults|int|false|Specify a number greater than 0 to limit the number of results. If numResults is not specified, or is given to be 1, no limit is applied.|
 
 ## Example
 

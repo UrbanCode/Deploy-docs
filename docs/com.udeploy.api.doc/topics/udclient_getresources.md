@@ -19,6 +19,7 @@ udclient [\[global-args...\]](../../com.udeploy.reference.doc/topics/cli_command
 |template|string|false|Name or ID of the resource template \(Optional\)|
 |blueprintId|string|false|Name or ID of the blueprint \(Optional\)|
 |application|string|false|Name or ID of the application \(Required to look up blueprint by name\)|
+|includeInventory|boolean|false| |
 
 ## Example
 

@@ -14,10 +14,3 @@ Inventories provide a complete view of the status and contents of your component
 
 When you create application processes, you have the option of allowing the server to manage the environment inventory and compliance automatically, or to manage the inventory yourself. See [Managing environment inventory and compliance](inventory_manage_app.md). HCL UrbanCode Deploy always tracks the component, resource, and resource configuration inventories automatically.
 
--   **[Environment inventory and compliance](../topics/env_compliance.md)**  
-The inventory for an environment lists the component versions that are intended to be deployed to that environment. Compliance shows whether the environment contains those component versions.
--   **[Viewing resource configuration inventories](../topics/configuration_properties.md)**  
-You can view the configuration inventory for a component, which includes all properties that are associated with the component resource.
-
-**Parent topic:** [Modeling software deployment](../topics/part_using.md)
-

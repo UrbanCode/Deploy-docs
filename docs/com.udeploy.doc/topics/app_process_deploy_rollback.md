@@ -42,5 +42,3 @@ This method works best for component versions that are already deployed, regardl
 
 The process uses the snapshot to determine which component versions to roll back. In each step that includes the **Remove Undesired Incremental Versions** option, versions that are not in the snapshot are removed.
 
-**Parent topic:** [Application processes](../topics/app_process.md)
-

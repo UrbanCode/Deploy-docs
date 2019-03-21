@@ -4,6 +4,8 @@ To deploy applications to an IBM® z/OS® environment, the user accounts on the 
 
 The agent user account must have access to the following UNIX™ directories and files, and MVS™ data sets.
 
+The access permissions are set up when you install the agent. If you use a different user account to run the agent, the access permissions must be set correctly for that account.
+
 |Directories, files, and data sets|Required access permissions|
 |---------------------------------|---------------------------|
 |The /tmp directory or the agent/var/temp directory.|RW|
@@ -14,7 +16,14 @@ The agent user account must have access to the following UNIX™ directories and
 |The agent/var/log/ispf directory. The directory where ISPF gateway log files are stored.|RW|
 |The HLQ.SBUZAUTH, HLQ.SBUZEXEC, HLQ.SBUZMENU, and HLQ.SBUZSAMP data sets|R|
 
-The access permissions are set up when you install the agent. If you use a different user account to run the agent, the access permissions must be set correctly for that account.
+The user account that runs buztool.sh must have access to the following UNIX directories and files, and MVS data sets.
+
+|Directories, files, and data sets|Required access permissions|
+|---------------------------------|---------------------------|
+|The agent/var/repository directory. The directory to store artifacts in when an HFS CodeStation is used.|RW|
+|The agent/var/log/ispf directory. The directory where ISPF gateway log files are stored|RW|
+|The HLQ.SBUZAUTH, HLQ.SBUZEXEC, HLQ.SBUZMENU, and HLQ.SBUZSAMP data sets|R|
+|The agent/conf/agent directory.|RW|
 
 **Parent topic:** [Security requirements on IBM z/OS computers](../../com.udeploy.admin.doc/topics/security_zos.md)
 

@@ -12,22 +12,3 @@ After you define the source and processes for a component, you import its artifa
 
 Additionally, you can create processes and configure properties and save them as templates to create components. See [Component templates](comp_template.md).
 
--   **[Creating components](../topics/comp_create.md)**  
-In general, component creation is the same for all components.
--   **[Component processes](../topics/comp_process.md)**  
-A component process is a series of user-defined steps that operate on a component's artifacts.
--   **[Component versions](../topics/comp_version.md)**  
-Each time a component's artifacts are imported into the repository, including the first time, a separate version is stored in CodeStation. Versions can be assigned automatically by HCL UrbanCode Deploy, applied manually, or come from a build server.
--   **[Component properties](../topics/comp_properties.md)**  
-Components can have several types of properties. The server keeps track of changes to component properties as property versions.
--   **[Creating component manual tasks](../topics/comp_tasks_create.md)**  
-A component manual task interrupts a component process until manual intervention is done. To create a component manual task, add a manual step to a component process, and select a notification template.
--   **[Component templates](../topics/comp_template.md)**  
-With a component template, you can save and reuse component processes and properties and create components from them; template-based components inherit the template's properties and process.
--   **[Component change logs](../topics/comp_changeLog.md)**  
-Change logs provide information about modifications to components.
--   **[Deleting components](../topics/comp_del.md)**  
-When a component is deleted, it is removed from the database and CodeStation and cannot be activated later.
-
-**Parent topic:** [Modeling software deployment](../topics/part_using.md)
-

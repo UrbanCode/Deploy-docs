@@ -12,22 +12,3 @@ In addition to deployments, several other common processes are available, such a
 
 Application processes and the steps that they comprise are configured with the process editor. For information about using the process editor, see [Processes](comp_workflow.md). For information about individual process steps, see [Process steps: Reference](app_processSteps.md).
 
--   **[Creating application processes](../topics/app_process_create.md)**  
-You can use application processes to deploy or to roll back components.
--   **[Deploying components in an application process](../topics/app_process_deploy_comp.md)**  
-You can deploy one or more components in an application process by calling component processes.
--   **[Running application processes](../topics/app_process_run.md)**  
-To run an application process, specify the environment to use and the process to run. In many cases, you also specify the component versions to deploy.
--   **[Running the same process again](../topics/deployapp_repeatrequest.md)**  
-The repeat request function is available after an application deployment completes. The **Repeat Request** feature is on the Process Request page for the application.
--   **[Uninstalling components with an application process](../topics/app_process_deploy_uninstall.md)**  
-You can uninstall components by using an Uninstall Component step in an application process.
--   **[Rolling back to a snapshot](../topics/app_process_deploy_rollback.md)**  
-You can roll back a component to the versions that are in a snapshot. In this case, you use a **Rollback Component** step with the **Remove Undesired Incremental Versions** option.
--   **[Rolling back components that fail to deploy](../topics/app_process_deploy_rollback_last.md)**  
-If an application process fails to deploy a component, you can add a rollback step to the process to reverse the deployment. In this case, you use the **Replace with Last Deployed** option.
--   **[Modeling blue-green, rolling, and canary deployments](../topics/app_process_advanced_ov.md)**  
-The For Each Agent and For Each Tag steps provide ways to deploy to large environments in stages, allowing you to run flexible blue-green or rolling deployments, with or without updating canary nodes first.
-
-**Parent topic:** [Processes](../topics/comp_workflow.md)
-

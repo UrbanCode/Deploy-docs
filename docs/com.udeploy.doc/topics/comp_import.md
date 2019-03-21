@@ -58,5 +58,3 @@ When you export components, applications, processes, or templates, and then impo
     -   To upgrade the generic processes, select **Upgrade if Generic Process Exists**. This option creates components and new versions of the generic processes on the importing server. If the generic processes do not exist, processes are created.
 7.  Click **Submit**.
 
-**Parent topic:** [Creating components](../topics/comp_create.md)
-

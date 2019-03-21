@@ -10,8 +10,10 @@ You can work with the component that contains z/OS files as you would work with 
 To create IBM® z/OS component versions from job control language \(JCL\), create and submit JCL to run the buztool.sh command.
 -   **[Creating z/OS component versions from z/OS UNIX System Services](../topics/zos_runtools_uss.md)**  
 To create IBM® z/OS component versions from z/OS UNIX System Services, submit the buztool.sh command from a z/OS UNIX shell.
+-   **[Merging z/OS component versions](../topics/zos_merge_comp.md)**  
+Two or more z/OS component versions can be merged from a snapshot into one component version to simplify the deployment to the next environment. Merging component versions in this way avoids deploying intermediate programs into production.
 
-**Parent topic:** [Deploying to the z/OS platform](../topics/deploying_zos.md)
+**Parent topic:** [Deploying components to the z/OS platform](../topics/deploying_zos.md)
 
 **Related information**  
 

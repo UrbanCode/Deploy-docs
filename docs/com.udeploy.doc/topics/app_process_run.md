@@ -43,5 +43,3 @@ The server runs the application process with the specified component versions. Y
 
 You can view the progress of the process by going to the **History** tab and opening the process request. The application process request shows each step in the process. Within each process, the steps are not shown in the order that they run in. Instead, steps are shown in the order of appearance in the process editor, from the steps at the top of the canvas to the steps at the bottom of the canvas.
 
-**Parent topic:** [Application processes](../topics/app_process.md)
-

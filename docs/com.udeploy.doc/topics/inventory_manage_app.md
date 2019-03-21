@@ -20,5 +20,3 @@ As an alternative, you can manage the environment inventory and compliance manua
 
 4.   If you use snapshots in application processes, add the **Snapshot Inventory Update** utility step. Specify whether to add a snapshot version to or remove a snapshot version from the inventory, as described in [Snapshot Inventory Update](app_process_snap_update.md). 
 
-**Parent topic:** [Environment inventory and compliance](../topics/env_compliance.md)
-

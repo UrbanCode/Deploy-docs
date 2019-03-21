@@ -51,7 +51,5 @@ The following image shows an example of the messages that the **Events** tab dis
 
 ![The Events tab, showing the events for a specific environment on a calendar](../images/messaging_ov_a.gif)
 
-**Parent topic:** [Blueprint design server configuration](../../com.edt.doc/topics/c_node_administering_bds.md)
-
 **Parent topic:** [Managing security](../../com.udeploy.admin.doc/topics/security_ch.md)
 

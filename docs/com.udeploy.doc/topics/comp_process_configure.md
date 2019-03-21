@@ -25,5 +25,3 @@ A component process is a series of user-defined steps that operate on a componen
 
 Edit the process in the process editor. See [Editing processes](comp_workflow_edit.md).
 
-**Parent topic:** [Component processes](../topics/intro_component_processes.md)
-

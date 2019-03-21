@@ -37,5 +37,3 @@ Assume that version 1 of a component is deployed to an environment. You want to 
 
 ![A simple application process that has a rollback step; this step runs if a component deployment step fails](../images/app_process_deploy_rollback_last_a.gif)
 
-**Parent topic:** [Application processes](../topics/app_process.md)
-

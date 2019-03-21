@@ -64,20 +64,3 @@ Properties are flexible, and you can apply them to processes, environments, comp
 
 Assume that you have one Maven repository for all your code. You might refer to the address for this repository many times in many different applications. You don't need to set the address for this repository more than once. You set a system property, for example: `maven.repository.url=/theURL/`. In most places in a deployment process, use this property in place of the actual address. If the address of the Maven repository changes, you can universally change all references by changing the system property.
 
--   **[Creating, setting, and editing properties](../topics/resources_properties.md)**  
-Properties can be created for most elements, including components, resources, applications, and agents. You can set and change properties in many different ways.
--   **[Property contexts](../topics/ud_properties_context.md)**  
-Properties are available in various contexts. Not all properties are available for all contexts. To plan and set properties, you must know where to access properties and how that setting behaves in context.
--   **[Referring to properties](../topics/ud_properties_using.md)**  
-HCL UrbanCode Deploy provides several ways to refer to properties.
--   **[Default properties](../topics/propertiesreference.md)**  
-Many default properties are available for use while a process runs. These properties provide information about the process and the elements that are involved in the process, such as applications, components, and resources.
--   **[Output properties](../topics/output_properties.md)**  
-Output properties are specialized properties that process steps generate. You use output properties to pass parameters to subsequent steps in a process.
--   **[System properties](../../com.udeploy.admin.doc/topics/settings_properties.md)**  
-System properties are global variables for the server.
--   **[Property availability](../topics/ud_properties_avail.md)**  
-The properties that are available to you depends on the context. For example, in a component process, you can access the component properties of the current component. In an application process, you can access the application properties and environment properties, but not any component properties. The following table shows the processes in which each type of property is available.
-
-**Parent topic:** [Modeling software deployment](../topics/part_using.md)
-

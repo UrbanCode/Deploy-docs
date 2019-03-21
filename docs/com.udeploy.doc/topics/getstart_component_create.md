@@ -20,5 +20,3 @@ Related topics:
 -   How to create and use templates; see [Component templates](comp_template.md)
 -   How to import components; see [Importing components](comp_import.md)
 
-**Parent topic:** [Creating components](../topics/comp_create.md)
-

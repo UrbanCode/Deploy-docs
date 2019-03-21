@@ -15,7 +15,7 @@ To create an authentication realm on the server, specify where to store informat
 -   **[Creating users manually](../../com.udeploy.admin.doc/topics/security_user_create.md)**  
 You can manually create users on the server for internal security and SSO type authentication realms.
 -   **[Editing user information manually](../../com.udeploy.admin.doc/topics/security_user_edit.md)**  
-You can manually edit the stored name, email address, and password for user accounts on the server for internal security and SSO type authentication realms.
+You can manually edit the stored name, email address, and password for user accounts on the server for internal security realms. For an SSO authentication realm, name and email address are passed in via HTTP headers \(for example, from an HTTP proxy that is translating Kerberos tokens into HTTP headers\).
 -   **[Importing LDAP users](../../com.udeploy.admin.doc/topics/security_user_import.md)**  
 On the server, LDAP authentication realm users are imported from external LDAP systems.
 -   **[Updating LDAP users](../../com.udeploy.admin.doc/topics/security_user_update.md)**  

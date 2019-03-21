@@ -33,5 +33,3 @@ As an alternative to using configuration templates, you can also use the Create 
 
 When you run the component process, the Install Template step creates a file that is based on the configuration template. The step replaces the property references with the property values. The default name of the file is the same as the name of the configuration template.
 
-**Parent topic:** [Component processes](../topics/intro_component_processes.md)
-

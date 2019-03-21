@@ -5,7 +5,7 @@ If you have an engine that is configured to work with the blueprint design serve
 -   You must have an engine that is configured to work with the blueprint design server. See [Installing the engine](install_engine.md#).
 -   You must have an OpenStack Keystone server.
 
-These steps configure an engine to accept connections to a new cloud. They do not create a connection from the blueprint designer to that cloud; to create this connection, see [Connecting to clouds through the blueprint designer](../../com.edt.doc/topics/security_cloud_connection.md).
+These steps configure an engine to accept connections to a new cloud.
 
 1.  On the engine, open Heat configuration file.By default, this file is in the location /etc/heat/heat.conf .
 2.   In this file, find the allowed\_auth\_uris property in both the auth\_password and, if applicable, the ec2authtoken sections. This property is a comma-separated list of Keystone servers that the engine can contact.
@@ -40,6 +40,4 @@ These steps configure an engine to accept connections to a new cloud. They do no
     service openstack-heat-api restart
     ```
 
-
-**Parent topic:** [Overview of integrations](../../com.udeploy.doc/topics/integrat_ov.md)
 

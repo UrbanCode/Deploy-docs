@@ -33,11 +33,9 @@ Scaling the HCL UrbanCode Deploy server may become necessary when the demand for
 **Related information**  
 
 
-[https://developer.ibm.com/urbancode/docs/getting-started-ibm-urbancode-deploy-containers/](https://developer.ibm.com/urbancode/docs/getting-started-ibm-urbancode-deploy-containers/)
+[IBM® Cloud Private v3.1.2 documentation](https://www.ibm.com/support/knowledgecenter/SSBS6K_3.1.2/kc_welcome_containers.html)
 
-[https://www.ibm.com/support/knowledgecenter/SSBS6K\_3.1.0/kc\_welcome\_containers.html](https://www.ibm.com/support/knowledgecenter/SSBS6K_3.1.0/kc_welcome_containers.html)
+[Getting started with IBM Cloud Kubernetes Service](https://console.bluemix.net/docs/containers/container_index.html#container_index)
 
-[https://console.bluemix.net/docs/containers/container\_index.html\#container\_index](https://console.bluemix.net/docs/containers/container_index.html#container_index)
-
-[https://developer.ibm.com/urbancode/docs/kubernetes-blue-green-deployments-working-example/](https://developer.ibm.com/urbancode/docs/kubernetes-blue-green-deployments-working-example/)
+[Kubernetes Blue-Green Deployments Working Example](https://developer.ibm.com/urbancode/docs/kubernetes-blue-green-deployments-working-example/)
 

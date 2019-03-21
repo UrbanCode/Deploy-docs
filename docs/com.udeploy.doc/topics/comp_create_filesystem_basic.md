@@ -92,5 +92,3 @@ The new component is listed on the Components page. The Versions tab shows the a
 
 Create processes for the component. See [Creating component processes](comp_process_configure.md).
 
-**Parent topic:** [Creating components from the file system](../topics/comp_create_filesystem.md)
-

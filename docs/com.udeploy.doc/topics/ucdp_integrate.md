@@ -96,5 +96,3 @@ In most cases, you connect the blueprint design server to the server at installa
     The component shows a warning that says `MISSING` because it has no versions. Other than that warning, if you can add the component in this way, the blueprint designer is connected to the HCL UrbanCode Deploy server.
 
 
-**Parent topic:** [Installing the blueprint design server](../../com.edt.doc/topics/install_server_bds.md)
-

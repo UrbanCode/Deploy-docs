@@ -38,7 +38,7 @@ Stateless server-agent communication provides significant benefits to performanc
 
 **Note:** 
 
-If an agent is reinstalled use the Forget JMS Certificate button by clicking Resources \> Agents \> Agent name \> Configuration \> Agent Security \> Forget JMS Certificate on the server. Next you will need to regenerate the [API key of the agent](https://www.ibm.com/support/knowledgecenter/en/SS4GSP_6.2.7/com.ibm.udeploy.admin.doc/topics/api_key.html).
+If an agent is reinstalled use the Forget JMS Certificate button by clicking Resources \> Agents \> Agent name \> Configuration \> Agent Security \> Forget JMS Certificate on the server. Next you will need to regenerate the [API key of the agent](https://www.ibm.com/support/knowledgecenter/en/SS4GSP_6.2.7/com.udeploy.admin.doc/topics/api_key.html).
 
 **Parent topic:** [Agents and agent relay configuration](../topics/configure_agents.md)
 

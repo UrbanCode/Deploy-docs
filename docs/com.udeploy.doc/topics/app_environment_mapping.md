@@ -23,5 +23,3 @@ The environment is populated with resources and components.
 
 After mapping components and resources, create an application process. For information about creating application processes, see [Creating application processes](app_process_create.md#).
 
-**Parent topic:** [Application environments](../topics/app_environment.md)
-

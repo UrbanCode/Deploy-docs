@@ -1,6 +1,8 @@
 # Editing user information manually
 
-You can manually edit the stored name, email address, and password for user accounts on the server for internal security and SSO type authentication realms.
+You can manually edit the stored name, email address, and password for user accounts on the server for internal security realms. For an SSO authentication realm, name and email address are passed in via HTTP headers \(for example, from an HTTP proxy that is translating Kerberos tokens into HTTP headers\).
+
+Editing user information requires permission to view the **Authentication \(Users\)** page. Make sure that the user's role is assigned to the proper team and **Web UI | Settings Tab** permissions are granted.
 
 1.   On the UrbanCode Deploy main menu bar, click **Settings**. 
 2.   To display the authentication page, in the **Security** group, click **Authentication \(Users\)**. 

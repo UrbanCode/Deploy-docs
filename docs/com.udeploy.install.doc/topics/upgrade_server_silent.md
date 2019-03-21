@@ -1,6 +1,6 @@
 # Upgrading the server in silent mode
 
-Use silent mode to upgrade without command-line prompts. To upgrade the server, stop the server, edit the properties file, and run the new installation program. These instructions apply to upgrades to versions 6.0 and later.
+Use silent mode to upgrade without command-line prompts. To upgrade the server, stop the server, edit the properties file, and run the new installation program. These instructions apply to upgrades from versions 6.0 and later.
 
 Depending on the version of UrbanCode Deploy you are upgrading, be sure to address these build-specific considerations.
 
@@ -23,7 +23,7 @@ This task applies to upgrades of versions 6.1 or later. Contact UrbanCode Deploy
 
 If a text fix received for a reported defect is not fixed in the upgraded version, you may need to open a Support Case to request a new build.
 
-**Note:** Setting com.urbancode.ds.cleanup.sourceConfig.fullCleanupSkip to True is only effective upon upgrade. After upgrading, component version import logs are automatically cleaned up after 24 hours by default. Refer to [Component Versions.](https://www.ibm.com/support/knowledgecenter/SS4GSP_7.0.0/com.ibm.udeploy.doc/topics/comp_version.html)
+**Note:** Setting com.urbancode.ds.cleanup.sourceConfig.fullCleanupSkip to True is only effective upon upgrade. After upgrading, component version import logs are automatically cleaned up after 24 hours by default. Refer to [Component Versions.](https://www.ibm.com/support/knowledgecenter/SS4GSP_7.0.0/com.udeploy.doc/topics/comp_version.html)
 
 1.   If you have added custom keystores, certificates, or any other files to the server\_install/opt/tomcat directory, back up those files before you upgrade. If you do not back up files that you have added to the server\_install/opt/tomcat directory, those files are removed when the upgrade process runs. 
 2.   Download and extract the installation files for HCL® UrbanCode™ Deploy. These files are available for download from the IBM Passport Advantage® website. See the [IBM UrbanCode Deploy download document](https://www.ibm.com/software/passportadvantage/pao_customer.html). 

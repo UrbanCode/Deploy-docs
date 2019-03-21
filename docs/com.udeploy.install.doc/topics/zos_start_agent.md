@@ -23,7 +23,5 @@ When the agent is started from the command line, the current login user ID is us
 
 **Parent topic:** [Starting HCL UrbanCode Deploy](../../com.udeploy.install.doc/topics/runProduct.md)
 
-**Parent topic:** [Installing the z/OS agent](../../com.udeploy.install.doc/topics/zos_installing_ov.md)
-
 **Parent topic:** [z/OS considerations for UrbanCode Deploy](../../com.udeploy.doc/topics/zos_ch.md)
 

@@ -23,5 +23,5 @@ Files in the z/OS environment can be identified with the **Search Z Artifacts** 
     |**Deployment Time**|The calendar date and time the file was deployed as mm/dd/yyy and hh:mm \(12-hour clock\).|
 
 
-**Parent topic:** [Deploying to the z/OS platform](../topics/deploying_zos.md)
+**Parent topic:** [Deploying components to the z/OS platform](../topics/deploying_zos.md)
 

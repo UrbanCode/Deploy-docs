@@ -2,7 +2,7 @@
 
 The steps for configuring secure HTTP connections with the HCL® UrbanCode™ Deploy server are similar to the steps for any Java™ Platform, Enterprise Edition server.
 
-To set up SSL security, you must have a certificate for the server. If you use certificates that are self-signed or certificates that are issued by a certificate authority that is not trusted, you must import these certificates into the trust store. A trust store contains trusted certificates from servers and certificate authorities. Import the self-signed certificates, certificate authority certificates, and intermediate certificate authority certificates to the JRE\_install/jre/lib/security/cacerts file. For an example of importing a certificate to a trust store, see the [Importing the Certificate Reply from the CA](http://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.ibm.java.security.component.70.doc/security-component/keytoolDocs/ex_importcertreply.html) topic in the IBM® SDK, Java Technology Edition help.
+To set up SSL security, you must have a certificate for the server. If you use certificates that are self-signed or certificates that are issued by a certificate authority that is not trusted, you must import these certificates into the trust store. A trust store contains trusted certificates from servers and certificate authorities. Import the self-signed certificates, certificate authority certificates, and intermediate certificate authority certificates to the JRE\_install/jre/lib/security/cacerts file. For an example of importing a certificate to a trust store, see the [Importing the Certificate Reply from the CA](http://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.java.security.component.70.doc/security-component/keytoolDocs/ex_importcertreply.html) topic in the IBM® SDK, Java Technology Edition help.
 
 In the case of LDAP servers, SSL certificates must have valid chains of authority. If you use your own certificate authority, add that certificate authority to the local trust store.
 
@@ -56,7 +56,7 @@ Because the HCL UrbanCode Deploy server runs on Apache Tomcat, you can refer to 
 7.   Similarly, add the same certificate to the keystore of each agent and agent relay. For example, the default location of an agent keystore is agent\_install/conf/agent.keystore.
 8.  To configure secure communication between the HCL UrbanCode Deploy server and an LDAP server, add the LDAP server certificate to the JRE\_install/jre/lib/security/cacerts file. This file is on the HCL UrbanCode Deploy server. Use the installation folder of the JRE for JRE\_install. 
 
-**Parent topic:** [SSL configuration](../../com.udeploy.doc/topics/SSLinstall.md)
-
 **Parent topic:** [Configuring](../topics/c_node_configuring.md)
+
+**Parent topic:** [SSL configuration](../../com.udeploy.doc/topics/SSLinstall.md)
 

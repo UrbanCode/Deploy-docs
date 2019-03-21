@@ -32,5 +32,5 @@ You can also set resource access for the team which limits the cloud resources t
     4.   In this way, set the resource access for each region and resource type. 
 7.   Click **Save**. 
 
-Now the users can work with all of the resources that they have access to. The roles that you selected for the users determine what the users can do with those resources. If you assigned cloud projects to the team, the users can use the functional IDs in those projects to deploy cloud instances. A clone of the team-based Git repository is created for each team member, and team members can change the shared files. See [Sharing blueprints by using a Git repository](../../com.edt.doc/topics/blueprint_org.md#).
+Now the users can work with all of the resources that they have access to. The roles that you selected for the users determine what the users can do with those resources. If you assigned cloud projects to the team, the users can use the functional IDs in those projects to deploy cloud instances. A clone of the team-based Git repository is created for each team member, and team members can change the shared files.
 

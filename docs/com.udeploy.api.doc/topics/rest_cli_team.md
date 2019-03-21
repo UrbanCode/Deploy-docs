@@ -9,9 +9,9 @@ Resources for creating, editing, and deleting teams.
 -   **[List information about a team](../../com.udeploy.api.doc/topics/rest_cli_team_info_get.md)**  
 
 -   **[List teams](../../com.udeploy.api.doc/topics/rest_cli_team_infoall_get.md)**  
-This command lists all teams on the server, all users in each team, and all of the roles that each user has on each team.
+ This command lists all teams on the server, all users in each team, and all of the roles that each user has on each team.
 -   **[Update a team](../../com.udeploy.api.doc/topics/rest_cli_team_update_put.md)**  
-Specify the team name in the 'team' parameter and use the 'name' and 'description' parameters to specify the desired changes.
+ Specify the team name in the 'team' parameter and use the 'name' and 'description' parameters to specify the desired changes.
 
 **Parent topic:** [REST commands for the HCL UrbanCode Deploy server](../../com.udeploy.reference.doc/topics/rest_api_ref_commands.md)
 

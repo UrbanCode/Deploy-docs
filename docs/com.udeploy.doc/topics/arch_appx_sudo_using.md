@@ -55,5 +55,3 @@ You can use the following variables in these properties:
 |`%g`|The group|
 |`%c`|The command to run|
 
-**Parent topic:** [User impersonation for process steps](../topics/arch_appx_sudo.md)
-

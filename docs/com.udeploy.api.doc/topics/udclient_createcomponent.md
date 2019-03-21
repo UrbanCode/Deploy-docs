@@ -55,7 +55,7 @@ This command takes a JSON request string or file. Use the following template for
   }],
   "templateId": "ID of the template to use (Optional)",
   "templateName": "Name of a template to use; this 
-  parameter is ignored if  templateId is specified 
+  parameter is ignored if templateId is specified 
   (Optional)",
   "templateVersion": "Version number of the specified 
   template (Optional)",
@@ -152,25 +152,6 @@ To create a component from a template, specify either the templateId attribute o
   ],
   "user": "admin"
 }
-```
-
-## Team mappings
-
-When creating UrbanCode Deploy objects from the CLI we pass in JSON payloads that set the configuration.
-
-These JSON files can include a "teamMappings" attribute that looks like this:
-
-```
-"teamMapping":[ 
-{ 
-"teamId" : "TEAM UIID", "teamLabel": "TEAM NAME", (can specify teamId or teamLabel), 
-"resourceRoleId": "ResRole UUID", "resourceRoleLabel":"Name of Resource Role" (can specify this or resRoleId) }
-,
-{ "teamId" : "TEAM UIID2", "teamLabel": "TEAM NAME2", (can specify teamId or teamLabel), 
-"resourceRoleId": "ResRole UUID2", "resourceRoleLabel":"Name of Resource Role2" (can specify this or resRoleId) }
-,
-{MORE TEAM MAPPINGS}
-]
 ```
 
 Related REST command: [Create a component](rest_cli_component_create_put.md).

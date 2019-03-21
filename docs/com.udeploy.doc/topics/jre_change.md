@@ -16,6 +16,8 @@ The new JRE must be from the same vendor as the current JRE.
 
     **Note:** The value of the JAVA\_HOME system variable must match the value of the install.java.home property.
 
+    **Note:** If you are upgrading to Java 9 or above and are moving off Oracle Java to AdoptOpenJDK you must manually remove the -Djava.endorsed.dir entry from the server\_install/bin/set\_env file.
+
 4.   If the server is running as a service on Windows:™ 
     1.   Open the file server\_install\\bin\\service\\\_service.cmd in a text editor. 
     2.   Edit the line that starts with the code `set JAVA_HOME` to the path to the new JRE. 

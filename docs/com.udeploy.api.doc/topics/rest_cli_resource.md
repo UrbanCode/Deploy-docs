@@ -2,12 +2,14 @@
 
 Resource for working with resources.
 
+-   **[List resources that have a specified component version](../../com.udeploy.api.doc/topics/rest_cli_resource_withversion_get.md)**  
+ This command returns a JSONArray representation of all resources that have the specified component version installed.
 -   **[Add a resource to a team](../../com.udeploy.api.doc/topics/rest_cli_resource_teams_put.md)**  
 
 -   **[Add a tag to a resource](../../com.udeploy.api.doc/topics/rest_cli_resource_tag_put.md)**  
 
 -   **[Copy a resource into a new parent](../../com.udeploy.api.doc/topics/rest_cli_resource_copy_put.md)**  
-To update a resource's parent with this command, you must specify, at a minimum, the resource path or id, and optionally provide info for the resource template, blueprint, and application.
+ To update a resource's parent with this command, you must specify, at a minimum, the resource path or id, and optionally provide info for the resource template, blueprint, and application.
 -   **[Create a resource](../../com.udeploy.api.doc/topics/rest_cli_resource_create_put.md)**  
 
 -   **[Delete a resource](../../com.udeploy.api.doc/topics/rest_cli_resource_deleteresource_delete.md)**  
@@ -17,13 +19,11 @@ To update a resource's parent with this command, you must specify, at a minimum,
 -   **[Get a resource property](../../com.udeploy.api.doc/topics/rest_cli_resource_getproperty_get.md)**  
 
 -   **[Get information about a resource](../../com.udeploy.api.doc/topics/rest_cli_resource_info_get.md)**  
-This command returns a JSON representation of a resource, including its security settings.
+ This command returns a JSON representation of a resource, including its security settings.
 -   **[List resource properties](../../com.udeploy.api.doc/topics/rest_cli_resource_getproperties_get.md)**  
 
 -   **[List resources](../../com.udeploy.api.doc/topics/rest_cli_resource_get.md)**  
-This command returns a JSONArray representation of all top-level resources, or all children of a specified parent resource.
--   **[List resources that have a specified component version](../../com.udeploy.api.doc/topics/rest_cli_resource_withversion_get.md)**  
-This command returns a JSONArray representation of all resources that have the specified component version installed.
+ This command returns a JSONArray representation of all top-level resources, or all children of a specified parent resource.
 -   **[List the tags on a resource](../../com.udeploy.api.doc/topics/rest_cli_resource_tag_get.md)**  
 
 -   **[Remove a resource from a team](../../com.udeploy.api.doc/topics/rest_cli_resource_teams_delete.md)**  
@@ -33,9 +33,9 @@ This command returns a JSONArray representation of all resources that have the s
 -   **[Set a property on a resource](../../com.udeploy.api.doc/topics/rest_cli_resource_setproperty_put.md)**  
 
 -   **[Update a resource](../../com.udeploy.api.doc/topics/rest_cli_resource_update_put.md)**  
-To update a resource with this command, you must specify all of the existing data for the resource.
+ To update a resource with this command, you must specify all of the existing data for the resource.
 -   **[Update a resource's parent](../../com.udeploy.api.doc/topics/rest_cli_resource_move_put.md)**  
-To update a resource's parent with this command, you must specify, at a minimum, the resource path or id, and optionally provide info for the resource template, blueprint, and application.
+ To update a resource's parent with this command, you must specify, at a minimum, the resource path or id, and optionally provide info for the resource template, blueprint, and application.
 
 **Parent topic:** [REST commands for the HCL UrbanCode Deploy server](../../com.udeploy.reference.doc/topics/rest_api_ref_commands.md)
 

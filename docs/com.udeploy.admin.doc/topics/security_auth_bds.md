@@ -9,12 +9,12 @@ If you are using an OpenStack cloud, the easiest way to set up access to the clo
 
     **Note:** To import users, you must log in as a user that was granted the Admin role.
 
-3.  Connect to a cloud. See [Connecting to clouds through the blueprint designer](../../com.edt.doc/topics/security_cloud_connection.md).
+3.  Connect to a cloud.
 4.  Add cloud projects to teams.
 
 If you are not using an OpenStack cloud, or if you do not want to use the accounts on a Keystone identity service, you must create functional IDs and give users access to clouds through those IDs. The functional IDs are represented on the blueprint design server as cloud projects. To provide access to a cloud through functional IDs, follow these steps:
 
-1.  Connect to a cloud. See [Connecting to clouds through the blueprint designer](../../com.edt.doc/topics/security_cloud_connection.md).
+1.  Connect to a cloud.
 2.  On the cloud system, create one or more accounts. The blueprint designer users use these functional IDs to access the cloud.
 3.  Add these functional IDs to the cloud connection as cloud projects.
 4.  Assign the cloud projects to teams.

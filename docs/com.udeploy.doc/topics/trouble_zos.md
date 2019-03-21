@@ -57,7 +57,5 @@ iconv -f utf8 -t ibm1047 agent.out > agent.out.1047
     -   agent\_dir/conf/toolkit/ISPZXENV
     -   agent\_dir/conf/toolkit/installed.properties
 
-**Parent topic:** [Installing the z/OS agent](../../com.udeploy.install.doc/topics/zos_installing_ov.md)
-
 **Parent topic:** [z/OS considerations for UrbanCode Deploy](../topics/zos_ch.md)
 

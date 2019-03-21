@@ -8,12 +8,14 @@ Install the following agent or product and use the Job Monitor that is bundled w
 -   IBM Developer for IBM Z
 -   IBM Rational Team Concert
 
-**Note:** For the z/OS agent, the Job Monitor is installed automatically in the **hlq.SBUZAUTH** data set. Also, the LOOPBACK\_ONLY property must be set to OFF in the Job Monitor configuration file.
+**Note:** For the z/OS agent, the Job Monitor is installed automatically in the hlq.SBUZAUTH data set. Also, the **LOOPBACK\_ONLY** property must be set to OFF in the Job Monitor configuration file.
+
+The hlq.SBUZSAMP\(BUZJJCL\) member has the sample PROC for starting JMON. The hlq.SBUZSAMP\(BUZJCNFG\) member is the JMON configuration file that is referred to in the PROC. JMON installed for another product \(for example, IDz or IBM RTC\) can be used, but the **LOOPBACK\_ONLY** property must be OFF 
 
 **Submitting and monitoring jobs in deployment processes**
 
 1.  Start the Job Monitor task and check that a task that is called **JMON** is running.
-2.  To submit or to monitor jobs, run the UrbanCode Deploy process that uses the Submit Job or Wait For Job steps.
+2.  To submit or to monitor jobs, run the UrbanCode Deploy process that uses the **Submit Job** or **Wait For Job** steps.
 3.  Set the following Job Monitor connection properties in the HCL UrbanCode Deploy environment or resource:
 
     ```
@@ -33,11 +35,11 @@ To use a password to authenticate, store the password in the jes.password proper
 
 **Authenticating with PassTickets**
 
-If you do not provide a password, the plug-in uses PassTicket authentication. You can use PassTickets authentication to eliminate the requirement to store user passwords in HCL UrbanCode Deploy.
+If you do not provide a password, the plug-in uses PassTickets authentication. You can use PassTickets authentication to eliminate the requirement to store user passwords in HCL UrbanCode Deploy.
 
 To configure your system to use PassTickets, complete the following steps:
 
-1.   Activate the **RACF PTKTDATA** class if it is not already active. The following code shows sample RACF commands: 
+1.   Activate the RACF PTKTDATA class if it is not already active. The following code shows sample RACF commands: 
 
     ```
     SETROPTS GENERIC(PTKTDATA) SETROPTS CLASSACT(PTKTDATA) RACLIST(PTKTDATA) 
@@ -45,7 +47,7 @@ To configure your system to use PassTickets, complete the following steps:
     ```
 
 2.   To create a PTKTDATA profile that defines the secret key and the application name to which it applies for the Job Monitor, complete the following steps: 
-    1.  Define the application name as **FEKAPPL**.
+    1.  Define the application name as FEKAPPL.
     2.  Define the key as a 64-bit number \(16 hex characters\).
     3.  Replace the key16 placeholder with a user-supplied 16 character hex string \(characters 0-9 and A-F\) as shown in the following sample RACF commands:
 
@@ -62,10 +64,10 @@ To configure your system to use PassTickets, complete the following steps:
         ```
 
     4.  Read the following scenarios:
-        1.  If the **PTKTDATA** class is already defined, verify that it is defined as a generic class before you create the profile that was shown previously. The support for generic characters in the PTKTDATA class is new in the z/OS V1.7 release, with the introduction of a Java interface to PassTickets.
+        1.  If the PTKTDATA class is already defined, verify that it is defined as a generic class before you create the profile that was shown previously. The support for generic characters in the PTKTDATA class is new in the z/OS V1.7 release, with the introduction of a Java interface to PassTickets.
         2.  If a cryptographic product is installed and available on the system, you can encrypt the secured sign-on application key for added protection. Use the KEYENCRYPTED keyword instead of the KEYMASKED keyword. For more information, see the Security Server RACF Security Administrator's Guide \(SA22-7683\).
-        3.  If the Rational Developer for System z or the Rational Team Concert server components are already installed on the system, the **PTKTDATA** profile might be defined already.
-3.   To define a profile to generate a PassTicket, you must define the **IRRPTAUTH** profile in the **PTKTDATA** class. Then, this profile controls for which user ID a PassTicket is generated, as shown here: 
+        3.  If the Rational Developer for System z or the Rational Team Concert server components are already installed on the system, the PTKTDATA profile might be defined already.
+3.   To define a profile to generate a PassTicket, you must define the IRRPTAUTH profile in the PTKTDATA class. Then, this profile controls for which user ID a PassTicket is generated, as shown here: 
 
     |Operation|Profile name|Required access|
     |---------|------------|---------------|
@@ -77,7 +79,7 @@ To configure your system to use PassTickets, complete the following steps:
     PERMIT IRRPTAUTH.FEKAPPL.USER1 CLASS(PTKTDATA) ID(AGNTUSR) ACCESS(UPDATE)
     ```
 
-5.   To refresh the **PTKTDATA** class for the new profiles and permissions to take effect, see the following commands: 
+5.   To refresh the PTKTDATA class for the new profiles and permissions to take effect, see the following commands: 
 
     ```
     SETROPTS RACLIST (PTKTDATA) REFRESH
@@ -114,7 +116,7 @@ SETROPTS RACLIST (PTKTDATA) REFRESH
 
 ```
 
-More JES security considerations are described in the IBM Developer for IBM Z documentation. For more information, see [JES Security](http://www-01.ibm.com/support/knowledgecenter/SSQ2R2_9.0.0/com.ibm.guide.hostconfig.reference.doc/topics/jessecurity.html?lang=en).
+More JES security considerations are described in the IBM Developer for IBM Z documentation. For more information, see [JES Security](http://www-01.ibm.com/support/knowledgecenter/SSQ2R2_9.0.0/com.guide.hostconfig.reference.doc/topics/jessecurity.html?lang=en).
 
 **Parent topic:** [Installing the z/OS agent](../../com.udeploy.install.doc/topics/zos_installing_ov.md)
 

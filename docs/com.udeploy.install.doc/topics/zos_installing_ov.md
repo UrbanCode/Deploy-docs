@@ -20,14 +20,6 @@ Review the system requirements, and then plan the installation:
 IBM System Modification Program/Extended \(SMP/E\) is a tool for installing and maintaining software on z/OS systems. SMP/E controls software changes at the element level. Job Control Language \(JCL\) is submitted by using 3270 emulation.
 -   **[Deploying by using the Job Monitor](../../com.udeploy.install.doc/topics/zos_using_job_monitor.md)**  
 You use the Job Monitor to submit jobs and to monitor the job status in your deployment. You must ensure that you have a Job Monitor task running and that you run the Urban Code Deploy process to submit or to monitor the job. Then, you must set up Job Monitor connection properties in your HCL UrbanCode Deploy environment.
--   **[Choosing a CodeStation and planning storage](../../com.udeploy.install.doc/topics/codestation_choose_plan.md)**  
-After installation, you can change the CodeStation where version artifacts are stored. The IBM z/OS agent that is used to import version stores artifact versions when the choice of CodeStation is HFS. Every z/OS agent that is used to deploy projects stores backups of old artifacts so that a rollback can be done when required. Plan the agent directory to ensure there is sufficient space for CodeStation and backup.
--   **[ISPF client gateway requirements](../../com.udeploy.install.doc/topics/ISPF_client_gateway_req.md)**  
-HCL UrbanCode Deploy uses the z/OS Time Sharing Option-Interactive System Productivity Facility \(TSO-ISPF\) gateway when it imports and deploys component versions.
--   **[Installing the binary and config files to different directories](../../com.udeploy.install.doc/topics/install_config_binary.md)**  
-By default, the agent installer installs the binary and config files into the same directory. You can customize the installation so that these files are installed into different directories. Also, multiple agent configurations can share the same copy of binary files which makes security control and product upgrading easier.
--   **[Installing the z/OS agent and deployment tools by using SMP/E](../../com.udeploy.doc/topics/zos_installing_smpe.md)**  
-IBM System Modification Program/Extended \(SMP/E\) is a tool for installing and maintaining software on z/OS systems. SMP/E controls software changes at the element level. Job Control Language \(JCL\) is submitted by using 3270 emulation.
 -   **[Job Monitor customization](../../com.udeploy.doc/topics/zos_jobmonitor.md)**  
 The Job Monitor binary is installed with the IBM z/OS deployment tools in the hlq.SBUZAUTH data set. You need the assistance of a security administrator and a TCP/IP administrator to complete this customization task.
 -   **[Choosing a CodeStation and planning storage](../../com.udeploy.doc/topics/codestation_choose_plan.md)**  
@@ -36,8 +28,6 @@ After installation, you can change the CodeStation where version artifacts are s
 HCL UrbanCode Deploy uses the IBM z/OS Time Sharing Option-Interactive System Productivity Facility \(TSO-ISPF\) gateway when it imports and deploys component versions.
 -   **[Installing the binary and config files to different directories](../../com.udeploy.install.doc/topics/install_config_binary.md)**  
 By default, the agent installer installs the binary and config files into the same directory. You can customize the installation so that these files are installed into different directories. Also, multiple agent configurations can share the same copy of binary files which makes security control and product upgrading easier.
-
-**Parent topic:** [Installing HCL UrbanCode Deploy](../../com.udeploy.install.doc/topics/install_ch.md)
 
 **Parent topic:** [z/OS considerations for UrbanCode Deploy](../../com.udeploy.doc/topics/zos_ch.md)
 

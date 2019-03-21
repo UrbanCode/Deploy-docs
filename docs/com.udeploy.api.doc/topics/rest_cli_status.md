@@ -9,7 +9,7 @@ Resources for creating and retrieving statuses.
 -   **[Get information about a status](../../com.udeploy.api.doc/topics/rest_cli_status_getstatus_get.md)**  
 
 -   **[List statuses](../../com.udeploy.api.doc/topics/rest_cli_status_getstatuses_get.md)**  
-This command lists all the statuses that are associated with a specified status type.
+ This command lists all the statuses that are associated with a specified status type.
 
 **Parent topic:** [REST commands for the HCL UrbanCode Deploy server](../../com.udeploy.reference.doc/topics/rest_api_ref_commands.md)
 

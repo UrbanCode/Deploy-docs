@@ -24,9 +24,6 @@ This command takes a JSON request string or file. Use the following template for
   instead of ID",
   "component": "Name or ID of the component",
   "environment": "Name or ID of the environment",
-  "isSecure": "Whether the property is secure; the default 
-  is the current state of the property, or false if the 
-  property is not yet specified (optional)",
   "name": "Name of the property to set",
   "value": "Value of the property to set (optional)"
 }

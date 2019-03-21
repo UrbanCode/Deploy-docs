@@ -54,5 +54,3 @@ Preconditions have access to a property that is named `hasFailures`. This proper
 properties.get('hasFailures') == undefined
 ```
 
-**Parent topic:** [Process step types and logic](../topics/process_steps.md)
-

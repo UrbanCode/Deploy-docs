@@ -5,7 +5,7 @@ To create a resource template, specify the contents and organization of the temp
 1.   Click **Resources** \> **Resource Templates** and then click **Create Resource Template**. 
 2.   Specify a name for the template. 
 
-    **Restriction:** If you use this resource template with a blueprint that you provision to a cloud that uses virtual system patterns, the name cannot contain asterisk \(\*\), backslash \(\\\), or forward slash \(/\) characters. See [Modeling environments for clouds that use virtual system patterns](../../com.edt.doc/topics/blueprint_edit_clouds_vsp.md#).
+    **Restriction:** If you use this resource template with a blueprint that you provision to a cloud that uses virtual system patterns, the name cannot contain asterisk \(\*\), backslash \(\\\), or forward slash \(/\) characters.
 
 3.   In the **Teams** fields, specify the access information for the new resource template. 
 4.   Click **Save**. The resource hierarchy for the new template opens in the editor. The hierarchy contains a top-level group.
@@ -40,6 +40,4 @@ To create a resource template, specify the contents and organization of the temp
 For example, the following resource template contains a single agent prototype.
 
 ![A simple resource template with an agent prototype that hosts a component](../images/resources_templates_a.gif)
-
-**Parent topic:** [Resource templates](../topics/resources_templates.md)
 

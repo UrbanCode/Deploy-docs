@@ -35,7 +35,7 @@ In addition to creating a component manually, you can use a template to create o
  **Note:** If you select a template that includes a source type, the dialog box changes to reflect values that are defined for the template. Several fields, including the **Source Configuration Type** field, become populated and locked.
 
  |
-    |**Component Type**|Identifies whether the component is based on IBM® z/OS® artifacts. If you select **z/OS**, the source configuration controls are not available. Artifacts that are stored in z/OS do not use source configurations. To learn more about configuring and deploying z/OS components, see [Deploying to the z/OS platform](deploying_zos.md).|
+    |**Component Type**|Identifies whether the component is based on IBM® z/OS® artifacts. If you select **z/OS**, the source configuration controls are not available. Artifacts that are stored in z/OS do not use source configurations. To learn more about configuring and deploying z/OS components, see [Deploying components to the z/OS platform](deploying_zos.md).|
     | **Source Configuration Type** |Defines the source type for the component's artifacts. All artifacts must have the same source type. Selecting a plug-in shows the fields that are associated with the plug-in. Source-dependent fields are used to identify and configure the component's artifacts. If you selected a template that includes a source type, this field is locked, and its value is inherited from the template. For information about creating components of specific types, see [Creating components from the file system](comp_create_filesystem.md), [Creating components from build integration tools](comp_create_buildTools.md), or [Creating components from source-code management systems](comp_create_scm.md).
 
 |
@@ -55,21 +55,4 @@ For more information about cleaning up component versions, see [Cleaning up comp
     For information about creating components of specific types, see [Creating components from the file system](comp_create_filesystem.md), [Creating components from build integration tools](comp_create_buildTools.md), or [Creating components from source-code management systems](comp_create_scm.md).
 
 4.   When finished, save your work. Saved components are listed in the Components pane.
-
--   **[Getting started with creating components](../topics/getstart_component_create.md)**  
-Components are the centerpiece of the HCL UrbanCode Deploy deployment engine. Components associate deployable items \(artifacts\) with processes that deploy them.
--   **[Creating components from the file system](../topics/comp_create_filesystem.md)**  
-You can create components by importing artifacts from the file system on the HCL UrbanCode Deploy server. You can import a single version or automatically import versions as they are added to the file system.
--   **[Creating components from source-code management systems](../topics/comp_create_scm.md)**  
-You can create components from the artifacts in various source-code management systems.
--   **[Creating components from build integration tools](../topics/comp_create_buildTools.md)**  
-You can create components from the artifacts in various build integration tools.
--   **[Creating component versions with the command-line client](../topics/comp_create_udclient.md)**  
-If HCL UrbanCode Deploy does not have a source configuration type for your external tool, you can use the udclient command-line client to manage components.
--   **[Importing components](../topics/comp_import.md)**  
-Importing and exporting can be especially useful if you have multiple HCL UrbanCode Deploy servers, for example, and must quickly move or update components.
--   **[Exporting components](../topics/comp_export.md)**  
-Importing and exporting can be especially useful if you have multiple HCL UrbanCode Deploy servers, for example, and must quickly move or update components.
-
-**Parent topic:** [Components](../topics/comp_ch.md)
 

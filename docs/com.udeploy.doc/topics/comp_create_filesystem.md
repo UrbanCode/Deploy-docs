@@ -15,10 +15,3 @@ HCL UrbanCode Deploy imports local files by two methods:
 
 In either case, the artifacts must be on the same file system as the HCL UrbanCode Deploy server.
 
--   **[Creating components from a nonversioned file system](../topics/comp_create_filesystem_basic.md)**  
-To import artifacts that are not stored in versioned folders, store the artifacts in a folder and create a component with the **File System** source configuration type.
--   **[Creating components from a versioned file system](../topics/comp_create_filesystem_versioned.md)**  
-To import artifacts with versions, create a directory with subdirectories that represent the versions of the artifacts. Then, create the component with the **File System \(Versioned\)** source configuration type.
-
-**Parent topic:** [Creating components](../topics/comp_create.md)
-

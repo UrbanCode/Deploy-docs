@@ -1,6 +1,6 @@
 #  IBM z/OS component versions
 
-Component versions forIBM® z/OS® are imported from the build LPAR by using the buzltool.sh command.
+Component versions forIBM® z/OS® are imported from the build LPAR by using the buztool.sh command.
 
 **Note:** The user account that runs buztool.sh must have access to the UNIX™ directories and files and MVS™ data sets. Refer to [IBM z/OS directories and data sets](security_zos_files.md).
 

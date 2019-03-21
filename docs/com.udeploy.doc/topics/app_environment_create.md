@@ -12,7 +12,7 @@ Ensure that you have at least one base resource to associate with the new enviro
 
 2.   Specify the environment name. The name is used as part of the deployment process and typically corresponds to the target environment. If you deploy to an integration environment, you might name the environment `SIT`.
 
-    **Restriction:** If you provision this environment to a cloud that uses virtual system patterns, the environment name cannot contain asterisk \(\*\), backslash \(\\\), or forward slash \(/\) characters. See [Modeling environments for clouds that use virtual system patterns](../../com.edt.doc/topics/blueprint_edit_clouds_vsp.md#).
+    **Restriction:** If you provision this environment to a cloud that uses virtual system patterns, the environment name cannot contain asterisk \(\*\), backslash \(\\\), or forward slash \(/\) characters.
 
 3.   Provide the following information: 
     1.   Specify a description. 
@@ -38,7 +38,7 @@ Ensure that you have at least one base resource to associate with the new enviro
     ![The Environment Blueprint Properties window, which shows the name of the new environment and links to customize the properties for each node](../images/app_environment_create_a.gif)
 
 5.  If you are creating an environment that is based on a cloud-based blueprint, specify the following information on this window: 
-    1.   In the **Cloud Connection** field, make sure that the connection to your cloud system is listed. This list shows connections that you have access to, based on the security settings for those connections. This list shows only connections to clouds that use virtual system patterns; to provision environments on clouds through OpenStack Heat, see [Provisioning environments from the blueprint designer \(through OpenStack Heat\)](../../com.edt.doc/topics/env_provision_edt.md). 
+    1.   In the **Cloud Connection** field, make sure that the connection to your cloud system is listed. This list shows connections that you have access to, based on the security settings for those connections. 
     2.   In the **Choose Location** field, specify where to store the virtual nodes and how to allocate IP addresses to those nodes. Select **Cloud Group** to store the virtual nodes on one of the hypervisors in a cloud group. Select **Environment Profile** to provision the virtual nodes according to an environment profile. For more information about cloud groups and environment profiles, see the documentation for your cloud system. 
 
         **Note:** If you have to specify both the environment profile and the IP group, first specify the environment profile on this page. Then, on the properties page for each node, specify the IP group for each node.
@@ -56,6 +56,4 @@ Ensure that you have at least one base resource to associate with the new enviro
 6.   Click **Create** to submit the request. 
 
 The new environment is displayed in the **Environments** pane. If you used a cloud-based blueprint, the server submits the cloud resource request. When the cloud resources are ready, the agents contact the server and are added to the environment. You can see the cloud resources by opening the console for your cloud system.
-
-**Parent topic:** [Application environments](../topics/app_environment.md)
 

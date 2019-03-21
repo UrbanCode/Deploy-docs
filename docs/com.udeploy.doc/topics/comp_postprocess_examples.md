@@ -166,5 +166,3 @@ Passing a value from one step to another involves a few general steps:
     ```
 
 
-**Parent topic:** [Post-processing scripts](../topics/comp_postProcess.md)
-

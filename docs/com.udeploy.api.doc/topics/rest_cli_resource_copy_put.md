@@ -31,6 +31,8 @@ This command takes a JSON request string or file. Use the following template for
   (Optional)",
   "agentPool": "Name or ID of an agent pool to use for 
   automation (Optional)",
+  "component": "Name or ID of a component to associate 
+  with the resource (Optional)",
   "componentTag": "Name or ID of a component tag to 
   associate with the resource; any components with that tag 
   can be deployed to this resource (Optional)",
@@ -52,7 +54,7 @@ This command takes a JSON request string or file. Use the following template for
   create a root resource (Optional)",
   "role": "Name or ID of a resource role to associate with 
   the agent; if this resource is for a component, specify 
-  the component name (Optional)",
+  the component name instead (Optional)",
   "roleProperties": {"Property name": "Property value 
   (Optional)"}
 }

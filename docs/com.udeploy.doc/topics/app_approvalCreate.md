@@ -24,8 +24,3 @@ Before an approval process can be configured, these prerequisites must be met.
     ![Example ApprovalCreated Notification Template](../images/NotifyTemp_approvalpending.jpg) 
 
 
--   **[Work items](../topics/app_approvals_workitems.md)**  
-If a job requires approval, an approval process must be created. Then, the job displays in the approver’s Work Items tab.
-
-**Parent topic:** [Applications](../topics/applications_ch.md)
-

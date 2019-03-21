@@ -41,5 +41,3 @@ A manual application task interrupts an application process until manual interve
 
 When you run the process, it pauses at this step, sends a notification, and waits for approval before the process continues. To approve the task and resume the process, click the **Respond** link for the step in the process log, click **Approve**, and then click **Submit**. You can also resume the process from the Work Items tab.
 
-**Parent topic:** [Applications](../topics/applications_ch.md)
-

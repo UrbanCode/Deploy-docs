@@ -14,16 +14,3 @@ A value that is set on a component environment property overrides an environment
 
 Referenced: `${p:environment/propertyName}`.
 
--   **[Creating environments](../topics/app_environment_create.md)**  
-Before you can run a deployment, you must define at least one application environment that associates components with an agent on the target host.
--   **[Creating environments from WebSphere Application Server cells](../topics/examples_websphere_import_cell.md)**  
-You can import information about a WebSphere® Application Server cell into resources and then use those resources in an environment.
--   **[Creating environment gates](../topics/app_gate_create.md)**  
-To create an environment gate, specify the conditions that must be met before component versions can be deployed to the environment.
--   **[Mapping resources and components to environments](../topics/app_environment_mapping.md)**  
-Specify where components are deployed by adding a resource or resource group to the environment. Then, map the components to those resources.
--   **[Comparing environments](../topics/app_environment_compare.md)**  
-You can compare two environments to see differences in their inventories or property values.
-
-**Parent topic:** [Applications](../topics/applications_ch.md)
-

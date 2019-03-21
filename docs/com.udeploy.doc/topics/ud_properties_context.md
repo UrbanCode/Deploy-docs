@@ -75,5 +75,3 @@ In a For Each Agent context, you can use the following syntax to get a comma-sep
 
  |
 
-**Parent topic:** [Properties](../topics/ud_properties_overview.md)
-

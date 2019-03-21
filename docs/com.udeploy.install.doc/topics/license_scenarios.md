@@ -10,7 +10,7 @@ For example, if you are using Server Agent licensing and have 1,000 licensed age
 
 If you are using the IBM License Metric Tool to monitor license usage, you must ensure that agents are connected to the server so that the correct license usage is reported. The agents get their license type from the connection to the HCL UrbanCode Deploy server. Therefore, if the agents cannot connect to the HCL UrbanCode Deploy server, the .swtag files in the agent directory might be incorrect, and as a result, the license usage reports from the License Metrics Tools might not reflect actual usage. Check firewalls and other agent connectivity issues to be sure that licenses are available and accurately accounted for. For floating licenses, the agent holds a license during the deployment plus the waiting time.
 
-The following license scenarios are available. You can see the type of license that the server is using by logging in to the HCL UrbanCode Deploy server, clicking **Settings** \> **System Settings**, and looking at the **Server License Type** field.
+The following license scenarios are available.
 
 **Note:** HCL UrbanCode Deploy does support mixing license types. If more than one of these license types are available on the license server, HCL UrbanCode Deploy uses the type of license with the highest priority. The license scenarios have the following priority, from highest to lowest:
 
@@ -39,15 +39,11 @@ In this scenario, you can either allow the server to assign licenses to agents a
 
 UrbanCode Deploy is configured with a finite number of Server Agent licenses for an organization. When the maximum number of licenses are in use, any additional agents configured will become unlicensed and cannot run processes. Any process run on an unlicensed agent will log an error message. To resolve licensing warnings, additional licenses must be obtained, or existing licenses must be reassigned among the agents.
 
-For this type of licensing, the **Server License Type** field shows `Server Agent`.
-
 ## Processor value unit \(PVU\) licensing
 
 In this scenario, you apply the `IBM URBANCODE DEPLOY MANAGED CAPACITY PVU LIC` license to the HCL UrbanCode Deploy server. Then, the server can run processes. In this case, the agents do not require a separate license file; instead, each PVU license allows the server to use some agents concurrently. The number of concurrent agents might be limited or unlimited, depending on the terms of the PVU license. If you are using this license scenario and the license server does not have any PVU licenses for an HCL UrbanCode Deploy server, the server cannot run processes.
 
-For this type of licensing, the **Server License Type** field shows `Managed Capacity`.
-
-You can track your use of the PVU licenses with the IBM® License Metric Tool. See [IBM License Metric Tool](http://www-01.ibm.com/support/knowledgecenter/SS8JFY_7.5.0/com.ibm.lmt75.doc/ic-homepage_lmt.html).
+You can track your use of the PVU licenses with the IBM® License Metric Tool. See [IBM License Metric Tool](http://www-01.ibm.com/support/knowledgecenter/SS8JFY_7.5.0/com.lmt75.doc/ic-homepage_lmt.html).
 
 ## Concurrent sessions \(floating licenses\)
 
@@ -57,15 +53,11 @@ In this scenario, the HCL UrbanCode Deploy server does not require a separate li
 
 Although session-based licensing is provided to accommodate fluctuations in application processing demands, peak processing demands result in more requested licenses than available. In order to avoid interruptions in deployments when a license server or servers run out of licenses, the agent is permitted to run the process and an entry is made in the error log. It is the customer's responsibility to monitor session usage and adjust licensing needs as required.
 
-For this type of licensing, the **Server License Type** field shows `Session`.
-
 ## Concurrent sessions \(token licenses\)
 
 In this scenario, the `IBM URBANCODE DEPLOY SESSION INITIAL TOKEN 2 YEAR` license is available to the agents. When an agent runs a process, the HCL UrbanCode Deploy server retrieves some token licenses from a license server. If the first license server does not have enough available licenses, the HCL UrbanCode Deploy server attempts to retrieve licenses from the other license servers. Each agent requires twenty-two tokens to run a deployment. 15 minutes after the process is complete, the server returns the licenses to the license server. In this scenario, the server does not require a license.
 
 Although session-based licensing is provided to accommodate fluctuations in application processing demands, peak processing demands result in more requested licenses than available. In order to avoid interruptions in deployments when a license server or servers run out of licenses, the agent is permitted to run the process and an entry is made in the error log. It is the customer's responsibility to monitor session usage and adjust licensing needs as required.
-
-For this type of licensing, the **Server License Type** field shows `Session`.
 
 ## Licenses for use with high-availability servers
 

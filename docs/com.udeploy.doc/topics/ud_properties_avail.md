@@ -25,5 +25,3 @@ To see the properties that are available to a process, run the process. When the
  |
 |Agent properties|Generic processes and component processes|`${p:agent/PropName}`|
 
-**Parent topic:** [Properties](../topics/ud_properties_overview.md)
-

@@ -11,6 +11,10 @@ Before you exchange keys, ensure that the following properties are set:
 
 Additionally, ensure that the keytool utility, which is provided with the Java™ developer kit and is not part of HCL® UrbanCode™ Deploy, is available in the system path on each server, agent, and agent relay.
 
+**Important:** 
+
+Mutual authentication is not needed with web agents, therefore is deprecated starting in HCL UrbanCode Deploy version 7.0.0.
+
 Each server, JMS agent, and agent relay contains a key that identifies that component. By default, these keys are stored in self-signed certificates that are created automatically during product initial startup. You can replace these self-signed certificates with either signed certificates that you obtain from a well-known certificate authority \(CA\), or you can issue certificates using an internal CA.
 
 -   If you enable mutual authentication and use self-signed certificates, you must exchange the keys between server and agent relay, agent relay and agent, or between server and agent.

@@ -15,5 +15,3 @@ Related topics:
 -   How to create snapshots; see [Snapshots](app_snapshot.md)
 -   How to import applications; see [Importing applications](app_import.md)
 
-**Parent topic:** [Applications](../topics/applications_ch.md)
-

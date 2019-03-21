@@ -56,5 +56,3 @@ In the process editor you organize the steps in a process, specify their propert
 5.   Verify that the flow of steps is correct. Each process starts with the Start step and continues until it reaches the Finish step. Therefore, the Start step must connect to the first step or steps to run. Similarly, the last steps must connect to the Finish step, or else the process does not finish correctly.
 6.   When you are finished with your work on the process, click **Save**. If comments are required, the Process Change Comment window opens. Type a comment, and then click **Save**. The server settings control whether comments are required. To learn more about system settings, see [Server settings and configuration](settings_ch.md).
 
-**Parent topic:** [Processes](../topics/comp_workflow.md)
-

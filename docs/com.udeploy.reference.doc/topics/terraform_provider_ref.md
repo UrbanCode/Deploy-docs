@@ -30,7 +30,11 @@ provider "ucd" {
     |agent\_name|True|The HCL UrbanCode Deploy agent name.|
     |description|False|The description for the agent.|
     |dynamic|False|Determines if the agent is added as a dynamic group.|
+    |name|False|The name given to this agent in the resource tree.|
     |parent\_id|True|The ID of the resource in the resource tree where the agent is added. This is normally the base resource group ID.|
+    |sleep\_delay|False|The amount of time to wait between checks for the agent. Default is 4 seconds.|
+    |tags|False|List of tags assigned to this agent resource in the resource tree.|
+    |timeout|False|The amount of time to check for the agent. Default is 20 seconds.|
 
     **Example usage**
 
@@ -39,6 +43,7 @@ provider "ucd" {
          agent_name = "database_server_agent"
          description = "Agent to manage the database server"
          parent_id = "${ucd_resource_tree.tree.id}"
+         tags = ["QA"]
      }
     ```
 
@@ -48,9 +53,12 @@ provider "ucd" {
     |----|--------|-----------|
     |application|True|The application name.|
     |application\_process|True|The application process.|
+    |component\_version|False|The component version to be used when running the application process.|
     |environment|True|The environment name.|
     |properties|False|The JSON string that represents properties.|
-    |snapshot|True|The application snapshot.|
+    |sleep\_delay|False|The amount of time to wait between checks for application process completion. Default is 10 seconds.|
+    |snapshot|False|The application snapshot.|
+    |timeout|False|The amount of time to wait for the application process to complete. Default is 300 seconds.|
 
     **Example usage**
 
@@ -59,7 +67,14 @@ provider "ucd" {
          application = "JKE"
          application_process = "install"
          environment = "${ucd_environment.environment.name}"
-         snapshot = "snapshot_v1"
+         properties {
+            "user" = "user1"
+            "email" = "user1@email.com"
+         }
+         component_version {
+            component = "JKE_web"
+            version = "latest"
+         }
      }
     ```
 
@@ -69,9 +84,11 @@ provider "ucd" {
     |----|--------|-----------|
     |component|True|The component name.|
     |description|False|The component description.|
+    |name|False|The name given to this component in the resource tree.|
     |parent\_id|True|The ID of the resource in the resource tree under which to place this component. This is normally the agent.|
     |role\_id|False|The component role ID.|
     |role\_properties|False|The component role properties.|
+    |tags|False|List of tags assigned to this component resource in the resource tree.|
     |use\_impersonation|False|Determines whether or not to use default impersonation.|
 
     **Example usage**
@@ -81,6 +98,7 @@ provider "ucd" {
          component = "jke.war"
          description = "The JKE component"
          parent_id = ""${ucd_agent.agent.id}"
+         tags = ["QA"]
      }
     ```
 
@@ -95,7 +113,7 @@ provider "ucd" {
     |resource |True|The ID of the component resource in the resource tree.|
     |sleep\_delay|False|The amount of time to wait between checks for component process completion. The default is 10 seconds.|
     |timeout |False|The amount of time to wait for the component process to complete. The default is 300 seconds.|
-    |version |True|The component version.|
+    |version |False|The component version.|
 
     **Example usage**
 
@@ -115,7 +133,7 @@ provider "ucd" {
     |Name|Required|Description|
     |----|--------|-----------|
     |application|True|The application name or ID for the environment.|
-    |base\_resource\_group|True|The base resource group name or ID to add to the environment.|
+    |base\_resource\_group|False|The base resource group name or ID to add to the environment.|
     |color|False|The color for the environment.|
     |component\_property|False|Sets a component environment property. Can be specified multiple times for each property.|
     |delete\_attached\_resources|False|Determines whether or not to delete the resources attached to this environments. The default value is true.|
@@ -148,12 +166,14 @@ provider "ucd" {
     |base\_resource\_group\_name|True|The base resource group name.|
     |description|False|A description for the base resource group.|
     |dynamic|False|Determines if the resource group is added as a dynamic group.|
+    |parent|False|Name or ID of the parent resource for this resource group.|
 
     **Example usage**
 
     ```
     resource "ucd_resource_tree" "tree" {
         base_resource_group_name = "my_tree"
+        parent = "/my_app/QA/staging"
      }
     ```
 

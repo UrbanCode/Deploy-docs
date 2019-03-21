@@ -7,7 +7,7 @@ Many REST and command-line client commands have examples in their help topics. A
 For complete examples of using several REST commands together, see the following pages:
 
 -   [Deploying applications by using REST commands: An example](rest_api_ref_example.md)
--   [Provisioning environments by using REST commands: An example](rest_api_ref_provision_example.md)
+-   [rest\_api\_ref\_provision\_example.md](rest_api_ref_provision_example.md)
 
 ## Authentication
 

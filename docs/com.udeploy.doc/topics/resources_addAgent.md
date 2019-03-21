@@ -8,5 +8,3 @@ You can find agents that are not associated with a resource and add them to a re
 4.  Drag the agent to the resource group to add the agent to that group.
 5.  Click **Hide Panel** to close the list of agents.
 
-**Parent topic:** [Modifying the resource tree](../topics/resource_tree_modify.md)
-

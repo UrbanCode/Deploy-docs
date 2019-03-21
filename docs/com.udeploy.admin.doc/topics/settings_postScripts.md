@@ -22,5 +22,3 @@ The HCL® UrbanCode™ Deploy server log file is normally found in the following
 
 **Parent topic:** [Managing security](../../com.udeploy.admin.doc/topics/security_ch.md)
 
-**Parent topic:** [Post-processing scripts](../../com.udeploy.doc/topics/comp_postProcess.md)
-

@@ -10,6 +10,4 @@ To deploy application components, run an application process on an environment.
 HCL UrbanCode Deploy has a built-in deployment scheduling system for setting regular deployments, or even black-out dates, for your Deployments.
 -   **[Cleaning up deployment history files](../topics/depl_history_cleanup.md)**  
 You can clean up deployment history files to reduce database and file system storage that HCL UrbanCode Deploy uses.
--   **[Deploying to the z/OS platform](../topics/deploying_zos.md)**  
-Use the toolkit to deploy to the IBM® z/OS® platform.
 

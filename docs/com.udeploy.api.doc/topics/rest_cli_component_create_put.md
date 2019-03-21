@@ -53,7 +53,7 @@ This command takes a JSON request string or file. Use the following template for
   }],
   "templateId": "ID of the template to use (Optional)",
   "templateName": "Name of a template to use; this 
-  parameter is ignored if  templateId is specified 
+  parameter is ignored if templateId is specified 
   (Optional)",
   "templateVersion": "Version number of the specified 
   template (Optional)",

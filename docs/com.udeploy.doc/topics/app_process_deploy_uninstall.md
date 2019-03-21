@@ -13,5 +13,3 @@ There are several ways to uninstall a component. To replace an existing componen
 4.   In the **Uninstall Type** field, specify **All Existing** to remove all versions of the component from the environment's inventory. Otherwise, specify **All Selected For Process** to remove only the versions that you select when you run the application process. 
 5.   Run the application process. The selected component versions are no longer in the environment inventory.
 
-**Parent topic:** [Application processes](../topics/app_process.md)
-

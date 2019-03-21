@@ -13,16 +13,12 @@ For this type of cloud integration, the following cloud systems are supported:
 
 Within these cloud systems, you can provision the virtual resources in environment profiles or in cloud groups. You can also assign the virtual resources to IP groups, but only when you assign the resources to an environment profile first. For more information, see [Creating environments](app_environment_create.md). You can also use virtual images with no more than one virtual network card. HCL UrbanCode Deploy does not support selecting different flavors of virtual resources or virtual nodes that have a multiplicity greater than 1.
 
-To connect to OpenStack and OpenStack-based clouds, SoftLayer®, Amazon Elastic Compute Cloud, VMware vCenter, or Microsoft™ Azure, see [Connecting to clouds through the blueprint designer](../../com.edt.doc/topics/security_cloud_connection.md).
-
 Cloud Orchestrator and PureApplication System introduced a new system for virtual system patterns. This new system is referred to as VSys.Next. The new virtual system patterns are supported on the following cloud systems:
 
 -   Cloud Orchestrator version 2.4 or later
 -   PureApplication System version 2.0 or later
 
 When you use these cloud systems, you specify whether to use the original virtual system patterns or the new VSys.Next patterns. Resources that you provision with VSys.Next patterns appear under **Instances** \> **Virtual Systems**. Resources that you provision without using the **Use VSys.Next patterns** option appear under **Instances** \> **Virtual Systems \(classic\)**. To provision resources with the **Use VSys.Next patterns** option, you must select an environment profile; you cannot use a cloud group. For more information about VSys.next patterns, see the following document: [http://www.ibm.com/developerworks/websphere/library/techarticles/1412\_apte/1412\_apte.html](http://www.ibm.com/developerworks/websphere/library/techarticles/1412_apte/1412_apte.html). You can also refer to the documentation for your cloud system.
-
-To connect to OpenStack and OpenStack-based clouds, SoftLayer, Amazon Elastic Compute Cloud, VMware vCenter, or Microsoft Azure, see [Connecting to clouds through the blueprint designer](../../com.edt.doc/topics/security_cloud_connection.md).
 
 1.  Click **Resources** \> **Resource Templates**.
 2.  Click **Import Template from Cloud**. 
@@ -54,6 +50,4 @@ The template opens, displaying the resource hierarchy for the template. The temp
 ![The complete resource template, showing a main folder that contains two agent prototypes](../images/resources_template_import_cloud_a.gif)
 
 Create an application blueprint from this resource template. See [Creating blueprints for cloud environments that use virtual system patterns](blueprint_create_vsp.md).
-
-**Parent topic:** [Modeling environments for clouds that use virtual system patterns](../../com.edt.doc/topics/blueprint_edit_clouds_vsp.md)
 

@@ -10,5 +10,3 @@ For example, the following figure shows the gate for an environment. The gate ha
 
 To see the statuses on a component version, click **Components** \> **selected component** \> **Versions** and look in the **Latest Status** field.
 
-**Parent topic:** [Creating environment gates](../topics/app_gate_create.md)
-

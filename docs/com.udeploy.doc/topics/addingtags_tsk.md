@@ -16,5 +16,3 @@ Add tags to objects to simplify object management, to improve object sorting, an
 -   To limit the installation of multiple components in application process to certain components or resources, first tag the components or resources. In the application process, click and drag the **Install multiple components** step to the process editor. In that step, use the **Component Tag** field to deploy the components that have a specific tag and the **Limit to Tag** field to use resources with a specified tag.
 -   To automatically import versions of a component by using any one of several agents, tag the agents. From the **Components** tab, click **Create Component**. Click **Import new component versions using any agent with the specified tag.**, and in the **Agent Tag for Version Imports** list, select the tag.
 
-**Parent topic:** [Tags](../topics/tags_ch.md)
-

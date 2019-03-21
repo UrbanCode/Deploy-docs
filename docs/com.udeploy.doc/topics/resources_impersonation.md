@@ -13,5 +13,3 @@ To access resources on a target system, you might need to access a specific user
 7.  To always use the credentials that are defined on the resource and override any credentials that are defined in process steps, select the **Always Use Default Impersonation** check box.
 8.  Click **Save**.
 
-**Parent topic:** [Resources](../topics/resources_ch.md)
-

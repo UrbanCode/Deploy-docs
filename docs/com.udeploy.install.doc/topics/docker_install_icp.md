@@ -13,7 +13,7 @@ The containerized version of UrbanCode deploy is compatible with IBM Cloud Priva
  [Install and set up the Helm CLI](https://www.ibm.com/support/knowledgecenter/SSBS6K_3.1.0/app_center/create_helm_cli.html)
 
  |
-|The containerized server, like the on-premises version, requires a database. The database can be installed in any location that can be accessed by the cluster, such as an on-premise location or in a cluster.|[Install database](https://www.ibm.com/support/knowledgecenter/SS4GSP_7.0.0/com.ibm.udeploy.install.doc/topics/DBinstall.html).**Note:** Unlike the on-premises version of HCL UrbanCode Deploy, the containerized version does not support the Apache Derby database.
+|The containerized server, like the on-premises version, requires a database. The database can be installed in any location that can be accessed by the cluster, such as an on-premise location or in a cluster.|[Install database](https://www.ibm.com/support/knowledgecenter/SS4GSP_7.0.0/com.udeploy.install.doc/topics/DBinstall.html).**Note:** Unlike the on-premises version of HCL UrbanCode Deploy, the containerized version does not support the Apache Derby database.
 
 |
 |The installation material consists of an IBM Passport Advantage® archive \(PPA\) file, that contains a Docker image and a Helm chart. Helm is the Kubernetes package management tool. Helm charts are packages similar to debs and rpms packages. Download the PPA file for your operating system from the IBM Passport Advantage website. PPA files are available for x86, Z Linux® systems and PowerPC® \(LE\). Typically, your cluster administrator loads the PPA file into ICP using a CLI command \(cloudctl catalog load-archive\), that installs the Docker image and the Helm chart.

@@ -125,5 +125,3 @@ You can use these remote property values in property definitions, such as compon
 
 Now when you run the process, the Run Process window includes a parameter that retrieves values from the external file.
 
-**Parent topic:** [Creating, setting, and editing properties](../topics/resources_properties.md)
-

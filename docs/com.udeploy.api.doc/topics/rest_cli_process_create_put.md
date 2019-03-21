@@ -17,11 +17,31 @@ This command takes a JSON request string or file. Use the following template for
 
 ```
 {
+  "defaultResourceId": "Default resource ID",
   "description": "Description. This template includes 
   three steps: Download Artifacts, Run Groovy, and Run 
   Shell.",
   "name": "Process name or ID",
   "notificationScheme": "Name of notification scheme",
+  "propDefs": [{
+    "allowedValues": [{"label": "value"}],
+    "defaultLabel": "defaultLabel",
+    "description": "description",
+    "httpBasePath": "httpBasePath",
+    "httpFormat": "httpFormat",
+    "httpLabelPath": "httpLabelPath",
+    "httpPassword": "httpPassword",
+    "httpUrl": "httpurl",
+    "httpUsername": "httpUsername",
+    "httpValuePath": "httpValuePath",
+    "label": "label",
+    "name": "name",
+    "pattern": "Pattern",
+    "required": "required",
+    "resolveHttpValuesUrl": "resolveHttpValuesUrl",
+    "type": "type",
+    "value": "value"
+  }],
   "properties": {"Property name": "Property value 
   (Optional)"},
   "rootActivity": {

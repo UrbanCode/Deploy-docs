@@ -22,6 +22,8 @@ For information about templates that are associated with imported components, se
 -   You might receive an error message that indicates the Java™ heap space is out of memory when you attempt to import an application. To resolve the issue, increase the Java heap size. Open the server\_directory/bin/set\_env file, and set the Java heap size to a higher value, such as 2 GB.
 
 
+To share applications that have secured properties among IBM® UrbanCode™ Deploy servers, exchange keys from each server's encryption keystore. Refer to [Sharing secured properties among servers](../../com.udeploy.install.doc/topics/ssl_mutual_authServers.md#)
+
 1.  Open the Import Applications dialog box by clicking **Applications** \> **Import Applications**.
 2.   Click **Choose File**, and then select the name of the JSON file that contains the application definition. 
 
@@ -76,6 +78,4 @@ For information about templates that are associated with imported components, se
 |
 
 5.  Click **Submit**.
-
-**Parent topic:** [Creating applications](../topics/app_create.md)
 

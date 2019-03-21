@@ -38,12 +38,12 @@ This command takes a JSON request string or file. Use the following template for
   when none or creating cloud-based template (Optional)",
   "rootTeamMappings": "Array of UCD team ids; if not 
   specified, no teams will be mapped to Root Resource; 
-  format: [ {teamId: '<ID-of-team-1>'}, {teamId: '<ID-of-
-  team-2>'}, ... ]; (Optional)",
+  format: [ {teamId: 'ID-of-team-1'}, {teamId: 'ID-of-team-
+  2'}, ... ]; (Optional)",
   "teamMappings": "Array of UCD team ids; if not 
   specified, no teams will be mapped to Template; format: [ 
-  {teamId: '<ID-of-team-1>'}, {teamId: '<ID-of-team-2>'}, 
-  ... ]; (Optional)"
+  {teamId: 'ID-of-team-1'}, {teamId: 'ID-of-team-2'}, ... ]; 
+  (Optional)"
 }
 
 ```

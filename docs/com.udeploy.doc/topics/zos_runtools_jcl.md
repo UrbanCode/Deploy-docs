@@ -15,6 +15,7 @@ To create IBM® z/OS® component versions from job control language \(JCL\), cre
     |-verb|false|To display a trace log, set this parameter to true.|
     |-o|false|Full path name of the file where the output of version creation is written.|
     |-t|false|The type of the version to create. Set to full to create a full version. Default is incremental.|
+    |-to|false|Provides the UCD token used to authenticate the UCD server. This token can be created by UCD user who has access to create versions in the corresponding component. If the token is not provided, buztool takes the token from the <agent\_home\>/conf/installed.properties\> server.tokenvalue to authenticate.|
 
     For example, the following command creates a new version in the CICSModules component:
 

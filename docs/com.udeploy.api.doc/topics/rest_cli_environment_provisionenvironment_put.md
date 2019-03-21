@@ -24,28 +24,11 @@ This command takes a JSON request string or file. Use the following template for
   "baseResource": "Path to the resource node to create 
   this environment in",
   "blueprint": "Blueprint name or ID",
-  "cleanupCountToKeep": "Number of most recently deployed 
-  versions to keep (optional)",
-  "cleanupDaysToKeep": "Number of days to keep versions 
-  deployed to this environment (optional)",
-  "color": "HTML color code for the environment (optional)",
   "description": "Description (optional)",
-  "historyCleanupDaysToKeep": "Number of days to keep 
-  application process history for this environment 
-  (optional)",
-  "lockSnapshots": "Whether snapshots will be locked when 
-  deployed to this environment (optional)",
   "name": "Environment name",
-  "noSelfApprovals": "When this option is selected, users 
-  that submit deployment requests cannot approve their own 
-  requests (optional)",
   "nodeProperties": {"Path to the resource node, such as 
   /path/to/resource/node": {"Name of node property": "Value 
-  or node property"}},
-  "requireApprovals": "Whether approvals will be required 
-  (optional)",
-  "requireSnapshot": "If enabled, all deployments must use 
-  a snapshot instead of loose versions (optional)"
+  or node property"}}
 }
 
 ```

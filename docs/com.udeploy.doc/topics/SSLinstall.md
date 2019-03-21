@@ -10,6 +10,10 @@ For JMS connections, HCL UrbanCode Deploy supports communication via SSL in two 
 
 HCL UrbanCode Deploy automatically uses SSL in unauthenticated mode for JMS-based communications between the server and agents. You cannot disable SSL in unauthenticated mode, but you can enable mutual authentication for JMS-based server-agent communication. Because agent relays do not automatically activate SSL security, you must turn on SSL security when you install an agent relay or at least before you connect to the relay. Without SSL security active, agent relays cannot communicate with the server or remote agents.
 
+**Important:** 
+
+Mutual authentication is not needed with web agents, therefore is deprecated starting in HCL UrbanCode Deploy version 7.0.0.
+
 In mutual authentication mode, servers, local agents, and agent relays each provide a digital certificate to one another. A digital certificate is a cryptographically signed document that is intended to assure others about the identity of the certificate's owner. HCL UrbanCode Deploy certificates are self-signed. When mutual authentication mode is active, HCL UrbanCode Deploy uses it for HTTP-based server, local agents, and agent relay communication.
 
 In mutual authentication mode, the HCL UrbanCode Deploy server provides a digital certificate to each local agent and agent relay, and each local agent and agent relay provides one to the server. Agent relays, in addition to swapping certificates with the server, must swap certificates with the remote agents that use the relay. Remote agents do not have to swap certificates with the server, just with the agent relay it uses to communicate with the server. This mode can be implemented during installation or activated afterward.
@@ -20,12 +24,10 @@ In mutual authentication mode, the HCL UrbanCode Deploy server provides a digita
 To use mutual authentication, servers and Java Message Service \(JMS\) agents must exchange keys. You export a server key as a certificate and import it into the JMS agent keystore. Then, you reverse the process by exporting the agent key and importing it into the server keystore.
 -   **[Enabling server identity verification](../../com.udeploy.install.doc/topics/ssl_addl_security.md)**  
 Starting with version 6.2.1.1 of the product, you can enable extra security to configure the agents to verify the identity of the server for communication that uses the HTTPS protocol.
--   **[Ensuring end-to-end JMS encryption](../../com.udeploy.install.doc/topics/ssl_addl_security_2.md)**  
-All JMS traffic between the JMS agent and the server is encrypted with Transport Layer Security \(TLS\). However, starting with version 6.2.2 of the HCL UrbanCode Deploy, the server creates by default a unique key for JMS agents that connect to it and encrypts all JMS traffic to the agent with this key. This encryption ensures that instructions that are meant for an agent can't be read or used by another client on the JMS mesh.
 -   **[Supported TLS and SSL protocols and ciphers](../../com.udeploy.install.doc/topics/ssl_compatibility.md)**  
 HCL UrbanCode Deploy supports multiple SSL protocols and ciphers for communication between servers.
--   **[Sharing secured properties among servers](../../com.udeploy.install.doc/topics/ssl_mutual_authServers.md)**  
-To share applications that have secured properties among HCL UrbanCode Deploy servers, exchange keys from each server's encryption keystore.
+-   **[Enforcing the use of a security protocol or set of ciphers](../../com.udeploy.install.doc/topics/ssl_protocol_enforce.md)**  
+For security reasons, ensure that all SSL connections to and from the UrbanCode Deploy server use the TLSv1.2 protocol, if the server uses a JVM that supports it. To configure SSL globally, follow these instructions [jdk.tls.disabledAlgorithms](https://www.ibm.com/support/knowledgecenter/en/SSYKE2_8.0.0/com.java.security.component.80.doc/security-component/jsse2Docs/disabledalgorithms.html).
 -   **[Configuring SSL on Apache Tomcat and LDAP servers](../../com.udeploy.doc/topics/ssl_config.md)**  
 The steps for configuring secure HTTP connections with the HCL UrbanCode Deploy server are similar to the steps for any Java Platform, Enterprise Edition server.
 -   **[Implementing custom trust stores](../../com.udeploy.admin.doc/topics/ssl_truststores.md)**  

@@ -10,5 +10,3 @@ HCL® UrbanCode™ Deploy provides steps for several utility processes such as i
 
 A frequently used process can be saved as a template and applied to other components. See [Component templates](comp_template.md).
 
-**Parent topic:** [Components](../topics/comp_ch.md)
-

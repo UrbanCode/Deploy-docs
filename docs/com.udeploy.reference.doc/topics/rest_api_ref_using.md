@@ -107,7 +107,7 @@ Because the server interface uses the REST API, you can also log in to the serve
 
 ## Accessing blueprints in REST commands
 
-Most blueprint commands accept both a URL parameter and a Location header. For example, the command [Get the contents of a blueprint](../../com.edt.api.doc/topics/rest_bpid_get.md) has two parameters that refer to the target blueprint: the \{blueprintId\} parameter in the URL and the Location header. When commands have both of these parameters, the Location header takes precedence. Therefore, if you specify the complete location of the blueprint in the Location header, such as `/landscaper/orion/file/jsmith_8a6bfff7_2c77_45db_a235_adda61ad6653-OrionContent/myTeam/myBlueprint/myBlueprint.yml`, the command uses that blueprint regardless of the value of the \{blueprintId\} parameter. You can get the location of a blueprint with the [List blueprints](../../com.edt.api.doc/topics/rest_blueprint__get.md) command.
+When commands have both of these parameters, the Location header takes precedence. Therefore, if you specify the complete location of the blueprint in the Location header, such as `/landscaper/orion/file/jsmith_8a6bfff7_2c77_45db_a235_adda61ad6653-OrionContent/myTeam/myBlueprint/myBlueprint.yml`, the command uses that blueprint regardless of the value of the \{blueprintId\} parameter.
 
 If the Location header is not specified, the command uses the value of the \{blueprintId\} parameter. In this case, the command assumes that the blueprint is in the default repository. It also assumes that the blueprint file name is the value of the \{blueprintId\} parameter plus the extension `.yml`.
 

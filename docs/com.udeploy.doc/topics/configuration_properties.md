@@ -18,5 +18,3 @@ When you deploy a component, you store all the properties that are associated wi
 
 If the resource target does not contain the correct version of the properties, you can configure a component process to update the properties. See [Component process types](comp_process_types.md#).
 
-**Parent topic:** [Inventories](../topics/inventory_ch.md)
-

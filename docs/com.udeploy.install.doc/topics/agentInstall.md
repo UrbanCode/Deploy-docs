@@ -166,13 +166,15 @@ If the agent communicates with HCL UrbanCode Deploy by using an agent relay, you
 
             This setting must match the setting of the server. If you use mutual authentication, you must manually exchange a key between the server and each JMS agent or agent relay. For more information about this option, see [Configuring mutual authentication](ssl_mutual_auth.md).
 
-            **Note:** Mutual authentication is not used with Web agents.
+            **Important:** 
+
+            Mutual authentication is not needed with web agents, therefore is deprecated starting in HCL® UrbanCode™ Deploy version 7.0.0.
 
         -   ****Disable end-to-end encryption for server/agent JMS communication?****
 
             The default value is `N`.
 
-            To enable end-to-end encryption, the agent installer must connect to the HCL® UrbanCode™ Deploy server via HTTPS to set up keys. For more information about this option, see [Ensuring end-to-end JMS encryption](ssl_addl_security_2.md).
+            To enable end-to-end encryption, the agent installer must connect to the HCL® UrbanCode™ Deploy server via HTTPS to set up keys. For more information about this option, see [Enabling server identity verification](ssl_addl_security.md).
 
         -   ****Enable the agent to verify the server HTTPS certificate?****
 

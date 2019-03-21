@@ -15,5 +15,3 @@ If you have version data and deployment results that were created by a version o
 
 **Parent topic:** [Upgrading IBM z/OS agents](../../com.udeploy.install.doc/topics/upgrade_zOS_agents.md)
 
-**Parent topic:** [Upgrading IBM z/OS agents](../../com.udeploy.install.doc/topics/upgrade_zOS_agents.md)
-

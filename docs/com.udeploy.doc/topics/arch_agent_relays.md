@@ -44,5 +44,3 @@ The following simple artifact move illustrates the mechanics of remote communica
 5.  The agent relay streams the artifacts directly to the agent over the server-relay HTTP or HTTPS connection.
 6.  After the remote agent completes the work, it informs the server through the agent relay JMS connection.
 
-**Parent topic:** [Resources](../topics/resources_ch.md)
-

@@ -5,7 +5,7 @@ The agent properties in the installed.properties file control details about the 
 |Property|Default value|Description|
 |--------|-------------|-----------|
 |agent.HttpFailoverHandler.disabled|`null`|If this property is set to anything other than `true`, the agent recreates its HTTP proxy connection when it receives JMS messages from a host other than the one configured in http.proxy.host. Setting this property to `true` disables this behavior.|
-|agent.jms.disable\_full\_encryption|`false`|If this property is set to `true`, the agent does not use end-to-end encryption for the JMS protocol. See [Ensuring end-to-end JMS encryption](ssl_addl_security_2.md).|
+|agent.jms.disable\_full\_encryption|`false`|If this property is set to `true`, the agent does not use end-to-end encryption for the JMS protocol. See [Enabling server identity verification](ssl_addl_security.md).|
 |agentcomm.server.uri| ```
 random:(wss://ucd1.example.com:7919,wss://ucd2.example.com:7919)
 ```
@@ -83,7 +83,7 @@ This property is not used on an installed agent. Instead, the locked/agent.broke
 |server.token| | An authentication token to be used to import z/OS component versions. The token is encrypted after the first time it is used.
 
  |
-|server.url|`https://0.0.0.0:8443`|The web URL for the HCL UrbanCode Deploy server.|
+|server.url|`https://0.0.0.0:8443`|The web URL for the HCL® UrbanCode™ Deploy server.|
 |repository.type|`CODESTATION`| Specify `CODESTATION` to store versions in the HCL UrbanCode Deploy.
 
  Specify HFS to store versions in an HFS folder in the LPAR where the version is imported.

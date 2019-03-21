@@ -21,7 +21,7 @@ The su command is used to impersonate users. This figure shows a deployment scen
 ## Limitations
 
 1.  [HardwareCryptography IBMJCECCA](http://www.ibm.com/systems/z/os/zos/tools/java/products/sdk71jcecca.html)isnot supported.
-2.  [RACFdigital certificates](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.ibm.zos.v2r3.icha700/digcert.htm)arenot supported. UCD uses keystore and keytool provided by Java to generate and manage certifications to be used for the agent/server communication.
+2.  [RACFdigital certificates](https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.3.0/com.zos.v2r3.icha700/digcert.htm)arenot supported. UCD uses keystore and keytool provided by Java to generate and manage certifications to be used for the agent/server communication.
 
 -   **[IBM z/OS agent user accounts](../../com.udeploy.admin.doc/topics/security_zos_agent.md)**  
 If you run the agent from a UNIX™ command line, the agent user account is the account that you use to log in to the UNIX shell. If you run the agent as a started task, the agent user account is assigned by the Resource Access Control Facility \(RACF®\) using the started procedures table \(ICHRIN03\) or the STARTED class. To learn more about RACF, see the *z/OS Security Server RACF® System Programmer's Guide, SA23-2287-00*.
@@ -32,13 +32,9 @@ To deploy applications to an IBM z/OS environment, the user accounts on the agen
 -   **[IBM z/OS tokens](../../com.udeploy.admin.doc/topics/security_zos_tokens.md)**  
 Tokens are used to authenticate with the HCL UrbanCode Deploy server when z/OS component versions are imported.
 -   **[IBM z/OS component versions](../../com.udeploy.admin.doc/topics/security_zos_versions.md)**  
-Component versions forIBM z/OS are imported from the build LPAR by using the buzltool.sh command.
+Component versions forIBM z/OS are imported from the build LPAR by using the buztool.sh command.
 -   **[UCD security configuration related to z/OS](../../com.udeploy.admin.doc/topics/security_zos_UCDrelated.md)**  
 Information for the HCL UrbanCode Deploy \(UCD\) server’s security model and the security configurations related to server agent communication for IBM z/OS are referenced in this topic.
 
-**Parent topic:** [Installing the z/OS agent](../../com.udeploy.install.doc/topics/zos_installing_ov.md)
-
 **Parent topic:** [z/OS considerations for UrbanCode Deploy](../../com.udeploy.doc/topics/zos_ch.md)
-
-**Parent topic:** [Managing security](../../com.udeploy.admin.doc/topics/security_ch.md)
 

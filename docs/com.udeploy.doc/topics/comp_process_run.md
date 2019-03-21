@@ -16,5 +16,3 @@ You can also run component processes directly:
 6.  If the component process requires other properties, specify values for those properties.
 7.  Click **Submit**.
 
-**Parent topic:** [Component processes](../topics/intro_component_processes.md)
-

@@ -65,6 +65,10 @@ HCL UrbanCode Deploy supports multiple keystores, which support different securi
 
     The certificate for SSL communication on the JMS port is stored in the server.keystore file. If mutual authentication is enabled, the identities of the server and agent computers are verified. If mutual authentication is disabled, then the server.keystore file is used only to encrypt network traffic. By default, mutual authentication is disabled.
 
+    **Important:** 
+
+    Mutual authentication is not needed with web agents, therefore is deprecated starting in HCL® UrbanCode™ Deploy version 7.0.0.
+
 -   **encryption.keystore**
 
     The secret key that is used to encrypt and decrypt secure properties is stored in the encryption.keystore file. If you export applications and components that use secure properties to other HCL® UrbanCode™ Deploy servers, you must exchange the contents of this keystore between the servers. The secret key in the encryption.keystore file is randomly generated during installation. The password is stored in the `encryption.keystore.password` property, and its initial value is the same as the `server.keystore.password` property value.

@@ -46,7 +46,7 @@ After the document type declaration, the `plugin` root element identifies the XM
 </plugin>
 ```
 
-The `<tag>` tag specifies the location of the steps in the process editor palette. For example, the following code specifies that the steps are in the `MyPlugins/PluginA` folder.
+The `<tag>` tag specifies the location of the steps in the process editor palette. This is a required tag and the tag value cannot be null. For example, the following code specifies that the steps are in the `MyPlugins/PluginA` folder.
 
 ```
 <tag>MyPlugins/PluginA</tag>

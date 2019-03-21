@@ -49,7 +49,7 @@ Install an agent.
         
         ```
 
-    For more information on modifying the /etc/inittab file, see [https://www.ibm.com/support/knowledgecenter/en/ssw\_aix\_71/com.ibm.aix.osdevice/modetc.htm](https://www.ibm.com/support/knowledgecenter/en/ssw_aix_71/com.ibm.aix.osdevice/modetc.htm) 
+    For more information on modifying the /etc/inittab file, see [https://www.ibm.com/support/knowledgecenter/en/ssw\_aix\_71/com.aix.osdevice/modetc.htm](https://www.ibm.com/support/knowledgecenter/en/ssw_aix_71/com.aix.osdevice/modetc.htm) 
 
 
 The agent runs as a service. To verify that the agent is running as a service, run the following command and verify that two processes from the agent are running:

@@ -24,5 +24,3 @@ SUCCESS
 
 **Parent topic:** [Managing security](../../com.udeploy.admin.doc/topics/security_ch.md)
 
-**Parent topic:** [Properties](../../com.udeploy.doc/topics/ud_properties_overview.md)
-

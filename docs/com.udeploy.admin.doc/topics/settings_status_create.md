@@ -21,5 +21,3 @@ Define component version and inventory statuses on the **Statuses** tab.
 
 **Parent topic:** [Managing security](../../com.udeploy.admin.doc/topics/security_ch.md)
 
-**Parent topic:** [Statuses](../../com.udeploy.doc/topics/comp_version_status.md)
-

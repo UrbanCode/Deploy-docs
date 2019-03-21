@@ -55,5 +55,3 @@ If none of these criteria are true, the component version and the artifacts in i
     4.   In the **Number of Versions to Retain** field, specify the minimum number of versions to keep. 
     5.   Click **Save**. 
 
-**Parent topic:** [Component versions](../topics/comp_version.md)
-

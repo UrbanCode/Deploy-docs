@@ -13,5 +13,3 @@ Add a status by using the Add Status to Version plug-in step, which is available
 
 **Parent topic:** [Managing security](../../com.udeploy.admin.doc/topics/security_ch.md)
 
-**Parent topic:** [Statuses](../../com.udeploy.doc/topics/comp_version_status.md)
-

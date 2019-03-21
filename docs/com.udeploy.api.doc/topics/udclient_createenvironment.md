@@ -28,8 +28,27 @@ This command takes a JSON request string or file. Use the following template for
 {
   "applicationId": "Application ID associated with the 
   Environment template.",
+  "cleanupCountToKeep": "Number of most recently deployed 
+  versions to keep (optional)",
+  "cleanupDaysToKeep": "Number of days to keep versions 
+  deployed to this environment (optional)",
+  "color": "HTML color code for the environment (optional)",
   "description": "Description (optional)",
+  "historyCleanupDaysToKeep": "Number of days to keep 
+  application process history for this environment 
+  (optional)",
+  "lockSnapshots": "Whether snapshots will be locked when 
+  deployed to this environment (optional)",
   "name": "Environment name",
+  "noSelfApprovals": "When this option is selected, users 
+  that submit deployment requests cannot approve their own 
+  requests (optional)",
+  "requireApprovals": "Whether approvals will be required 
+  (optional)",
+  "requireSnapshot": "If enabled, all deployments must use 
+  a snapshot instead of loose versions (optional)",
+  "snapshotDaysToKeep": "Number of days to keep snapshots 
+  deployed to this environment (optional)",
   "teamMappings": [{
     "resourceRoleId": "Id of Resource Type to apply to 
   this team mapping (optional, can specify either this or 
@@ -42,7 +61,10 @@ This command takes a JSON request string or file. Use the following template for
     "teamLabel": "Name of the team to map the environment 
   to, either this field or teamId are needed to specify a 
   team"
-  }]
+  }],
+  "useSystemDefaultDays": "Whether or not to use the 
+  system default number of days to keep application process 
+  history for this environment (optional)"
 }
 
 ```
@@ -56,40 +78,6 @@ udclient -username jsmith -password passwd
   -application JPetStore 
   -name NewEnvironment
   -color '#ff0000'
-```
-
-## Team mappings
-
-When creating UrbanCode Deploy objects from the CLI we pass in JSON payloads that set the configuration.
-
-These JSON files can include a "teamMappings" attribute that looks like this:
-
-```
-"teamMapping":[ 
-{ 
-"teamId" : "TEAM UIID", "teamLabel": "TEAM NAME", (can specify teamId or teamLabel), 
-"resourceRoleId": "ResRole UUID", "resourceRoleLabel":"Name of Resource Role" (can specify this or resRoleId) }
-,
-{ "teamId" : "TEAM UIID2", "teamLabel": "TEAM NAME2", (can specify teamId or teamLabel), 
-"resourceRoleId": "ResRole UUID2", "resourceRoleLabel":"Name of Resource Role2" (can specify this or resRoleId) }
-,
-{MORE TEAM MAPPINGS}
-]
-```
-
-**Note:** 
-
-The createEnvironment can now take a JSON input string like createApplication and createComponent. You can still pass in query parameters \(udclient createEnvironment -name "name"\) OR you can specify a JSON file with configuration \(udclient createEnvironment env.json\). The method will throw an exception if it specifies query parameters and a JSON configuration file.
-
-The configuration file template should look like:
-
-```
-{
-"name": "Environment Name",
-"description": "Description (optional)",
-"applicationId", "Application ID associated with EnvironmentTemplate",
-"teamMappings": (detailed above)
-}
 ```
 
 Related REST command: [Create a new environment](rest_cli_environment_createenvironment_put.md).

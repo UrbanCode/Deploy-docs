@@ -4,7 +4,7 @@ Output properties are specialized properties that process steps generate. You us
 
 You can use output properties in component processes and generic processes.
 
-In the JavaScript™ code for your postprocessing steps, you can establish output properties. See [Examples of post-processing scripts](comp_postprocess_examples.md#). You set an output property for a step by assigning it a name and a value in the postprocessing script. For example, the following code from the Check If BLA Exists step in the IBM® WebSphere® Application Server, Deployment plug-in establishes three possible values for the `blaExists` output property:
+In the JavaScript™ code for your postprocessing steps, you can establish output properties. See [Examples of post-processing scripts](comp_postprocess_examples.md#). You set an output property for a step by assigning it a name and a value in the postprocessing script. For example, the following code from the Check If BLA Exists step in the IBM® WebSphere® Application Server Deployment plug-in establishes three possible values for the `blaExists` output property:
 
 ```
 
@@ -35,6 +35,4 @@ Then, you can refer to these output properties in other steps in a process. To d
 ![Using an output property value as the input for a Swtich step](../images/output_properties_a.gif)
 
 You can use output properties in other postprocessing scripts, step preconditions, step properties, or the code of steps themselves. Passing property values among processes, resources, and steps helps limit the requirement to provide input manually and to maintain accuracy and reliability.
-
-**Parent topic:** [Properties](../topics/ud_properties_overview.md)
 

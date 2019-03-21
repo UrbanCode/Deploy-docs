@@ -21,5 +21,3 @@ To create a snapshot, you specify which version of components and processes to i
 7.   To lock snapshot component versions, using the Applications page, select an application, then click **Snapshot** \> **snapshot name** \> **Component Versions**. By default, the lock setting is determined by the option selected in the **Lock Snapshots** field on the Create Environment window. To lock previously unlocked component versions, click **Lock Versions**. 
 8.   To lock a snapshot configuration, using the Applications page, select an application, then click **Snapshot** \> **snapshot name** \> **Configuration** \> **Advanced Settings**. By default, the lock setting is determined by the option selected in the **Lock Snapshots** field on the Create Environment window. To lock an unlocked snapshot configuration, click **Lock Configuration**. 
 
-**Parent topic:** [Snapshots](../topics/app_snapshot.md)
-

@@ -76,25 +76,6 @@ udclient -username jsmith -password passwd
 }
 ```
 
-## Team mappings
-
-When creating UrbanCode Deploy objects from the CLI we pass in JSON payloads that set the configuration.
-
-These JSON files can include a "teamMappings" attribute that looks like this:
-
-```
-"teamMapping":[ 
-{ 
-"teamId" : "TEAM UIID", "teamLabel": "TEAM NAME", (can specify teamId or teamLabel), 
-"resourceRoleId": "ResRole UUID", "resourceRoleLabel":"Name of Resource Role" (can specify this or resRoleId) }
-,
-{ "teamId" : "TEAM UIID2", "teamLabel": "TEAM NAME2", (can specify teamId or teamLabel), 
-"resourceRoleId": "ResRole UUID2", "resourceRoleLabel":"Name of Resource Role2" (can specify this or resRoleId) }
-,
-{MORE TEAM MAPPINGS}
-]
-```
-
 Related REST command: [Create an application from a JSON file](rest_cli_application_create_put.md).
 
 **Parent topic:** [CLI Commands](../../com.udeploy.reference.doc/topics/cli_commands.md)

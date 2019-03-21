@@ -99,12 +99,8 @@ Blueprints can create environment properties, but component resource properties 
           hidden: **true**
         ```
 
-    3.   When you provision the blueprint, specify values for the secure properties. See [Provisioning environments from the blueprint designer \(through OpenStack Heat\)](../../com.edt.doc/topics/env_provision_edt.md#).
+    3.   When you provision the blueprint, specify values for the secure properties. 
 7.   Save the blueprint. 
 
 After you provision the environment, the blueprint designer passes the property values in the blueprint source code to the properties on the server. In processes, you can refer to the properties in the same format as referring to any other property. For example, you can refer to environment properties in this format: `${p:environment/property\_name}`.
-
-**Parent topic:** [Blueprint properties, attributes, and parameters](../../com.udeploy.doc/topics/blueprint_props_ov.md)
-
-**Parent topic:** [Creating, setting, and editing properties](../topics/resources_properties.md)
 

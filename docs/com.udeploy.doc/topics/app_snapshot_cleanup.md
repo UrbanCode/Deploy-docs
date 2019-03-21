@@ -31,5 +31,3 @@ If none of these criteria are true, the snapshot is deleted, even if it was depl
     3.   In the **Days to Retain Application Snapshots** field, specify how long to keep a snapshot after it is not the most recently deployed snapshot in the environment. 
     4.   Click **Save**. 
 
-**Parent topic:** [Snapshots](../topics/app_snapshot.md)
-

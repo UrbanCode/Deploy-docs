@@ -33,5 +33,3 @@ Resources are created on the Resource Tree page. The Resource Tree page displays
 
 For information about using resources in applications, see [Mapping resources and components to environments](app_environment_mapping.md#).
 
-**Parent topic:** [Modifying the resource tree](../topics/resource_tree_modify.md)
-

@@ -2,8 +2,6 @@
 
 After installation, you can change the CodeStation where version artifacts are stored. The IBM z/OS agent that is used to import version stores artifact versions when the choice of CodeStation is HFS. Every z/OS agent that is used to deploy projects stores backups of old artifacts so that a rollback can be done when required. Plan the agent directory to ensure there is sufficient space for CodeStation and backup.
 
-**Parent topic:** [Installing the z/OS agent](../../com.udeploy.install.doc/topics/zos_installing_ov.md)
-
 ## Choosing a CodeStation
 
 When you deploy IBM z/OS artifacts by using z/OS components, you can select one of two CodeStation choices to store version artifacts. The agent installer prompts you for the choice and setup accordingly. You can modify the setting in the installed.properties file after installation.

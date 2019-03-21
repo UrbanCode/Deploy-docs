@@ -22,5 +22,3 @@ You can use application processes to deploy or to roll back components.
 
 Edit the process in the process editor. See [Editing processes](comp_workflow_edit.md).
 
-**Parent topic:** [Application processes](../topics/app_process.md)
-

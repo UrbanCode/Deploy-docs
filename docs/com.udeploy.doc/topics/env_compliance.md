@@ -6,8 +6,3 @@ The inventory and compliance for an environment are updated each time that you r
 
 The environment inventory and compliance track components but not snapshots or applications. For example, if you successfully deploy a snapshot with two component versions, the inventory is two components and the compliance is two components. If you successfully deploy a different snapshot with versions of two different components, the inventory is four components and the compliance is four components. In this way, the server counts component versions for inventory and compliance, not the versions in a snapshot or applications.
 
--   **[Managing environment inventory and compliance](../topics/inventory_manage_app.md)**  
-You can allow the server to manage the environment inventory and compliance automatically, or you can manage the environment inventory and compliance with steps in an application process.
-
-**Parent topic:** [Inventories](../topics/inventory_ch.md)
-

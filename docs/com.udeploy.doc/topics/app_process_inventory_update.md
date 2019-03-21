@@ -10,5 +10,3 @@ This step updates the inventory and compliance for the environment.
 |**Limit to Tag**|The user-defined resource tag that determines which resource runs the process. Only a resource with this tag, or a resource that has a parent with this tag, runs the process. See [Adding tags to objects](addingtags_tsk.md#).|
 |**Action**|Select **Add Desired Inventory** to add component versions to the inventory. Select **Remove Desired Inventory** to remove component versions from the inventory.|
 
-**Parent topic:** [Process steps: Reference](../topics/app_processSteps.md)
-

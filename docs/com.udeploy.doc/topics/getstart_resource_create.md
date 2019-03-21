@@ -16,5 +16,3 @@ Related topics:
 -   How to add tags to resources; see [Adding tags to objects](addingtags_tsk.md#).
 -   How to provide user credentials to resources; see [Defining default user impersonation credentials](resources_impersonation.md#).
 
-**Parent topic:** [Resources](../topics/resources_ch.md)
-

@@ -131,5 +131,3 @@ HCL UrbanCode Deploy escapes the following characters:
 
 Replace "\\" with "\\\\"; "=" with "\\="; and "," with "\\,".
 
-**Parent topic:** [Properties](../topics/ud_properties_overview.md)
-

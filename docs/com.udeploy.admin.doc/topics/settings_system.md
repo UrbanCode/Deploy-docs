@@ -83,7 +83,6 @@ These tables list the settings for several system-wide settings for the server.
 |Field|Description|
 |-----|-----------|
 |**Automatic Agent Licensing**|If this toggle button is set to On, the HCL UrbanCode Deploy server automatically attempts to license agents as they connect to the server. See [Applying licenses to servers and agents](../../com.udeploy.install.doc/topics/license_apply.md).|
-|**Server License Type**|Contains the license type that is retrieved from the Rational Common Licensing server. See [License scenarios](../../com.udeploy.install.doc/topics/license_scenarios.md).|
 |**RCL Server Path**|In most cases, specify the host name and port of the Rational Common Licensing server. The format is port@hostname. For more information, see [Applying licenses to servers and agents](../../com.udeploy.install.doc/topics/license_apply.md).|
 |**Download License Log**|Download the license usage log files. The log file contains all license violations. Messages are listed in descending order of violation time, so the most recent violation is displayed first.|
 

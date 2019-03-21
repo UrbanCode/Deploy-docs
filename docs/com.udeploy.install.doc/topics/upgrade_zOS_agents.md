@@ -31,14 +31,6 @@ If you are upgrading to version 6.2.4 from a version earlier than 6.1.1, see [Mi
 
 -   **[Migrating data from versions before 6.1.1](../../com.udeploy.install.doc/topics/migrate_b4_611.md)**  
 Upgrade the server, agents, and agent relays before upgrading the IBM z/OS deployment tools.
--   **[IBM z/OS agent changes in version 6.2.4](../../com.udeploy.install.doc/topics/zOS_624_agent_changes.md)**  
-
--   **[Migrating data from versions before 6.1.1](../../com.udeploy.install.doc/topics/migrate_b4_611.md)**  
-Upgrade the server, agents, and agent relays before upgrading the IBM z/OS deployment tools.
-
-**Parent topic:** [Upgrading agents](../../com.udeploy.install.doc/topics/upgradeAgents.md)
-
-**Parent topic:** [Installing the z/OS agent](../../com.udeploy.install.doc/topics/zos_installing_ov.md)
 
 **Parent topic:** [z/OS considerations for UrbanCode Deploy](../../com.udeploy.doc/topics/zos_ch.md)
 

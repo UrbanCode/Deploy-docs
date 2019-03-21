@@ -38,10 +38,3 @@ properties.put("Status","Success");
 
 See [The post-processing element](../../com.udeploy.reference.doc/topics/ref_create_postprocessing.md) for examples and more information.
 
--   **[Storing reusable post-processing scripts](../../com.udeploy.admin.doc/topics/settings_postScripts.md)**  
-You can store post-processing scripts on the server so you can reuse them in component processes and in generic processes.
--   **[Examples of post-processing scripts](../topics/comp_postprocess_examples.md)**  
-Post-processing scripts are written in JavaScript.
-
-**Parent topic:** [Process step types and logic](../topics/process_steps.md)
-

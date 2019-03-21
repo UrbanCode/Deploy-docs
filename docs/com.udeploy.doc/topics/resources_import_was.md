@@ -30,5 +30,3 @@ Resources that represent the WebSphere Application Server components are display
 
 Add these resources to an environment by opening the Resources page for the environment and then clicking **Add Base Resources**.
 
-**Parent topic:** [Resources](../topics/resources_ch.md)
-

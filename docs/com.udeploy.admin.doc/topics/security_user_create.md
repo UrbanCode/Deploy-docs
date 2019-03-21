@@ -2,6 +2,10 @@
 
 You can manually create users on the server for internal security and SSO type authentication realms.
 
+Editing user information requires permission to view the **Authentication \(Users\)**page. Make sure that the user's role has the **Manage Teams** and **WebUI | Settings Tab** permissions enabled.
+
+![Authenticate permissions](../images/AuthUsers_permission.jpg)
+
 1.   On the server, click **Settings** \> **Authentication \(Users\)** \> **target realm** \> **Create User**. 
 2.   In the Create User dialog box, enter the user information: 
     1.   Enter the user name that is associated with the account in the **Username** field. 

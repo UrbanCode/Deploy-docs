@@ -21,8 +21,3 @@ Generic processes can also be run from within component processes.
 4.  In the **Default Resource** field, specify the default resource to run the process on. In most cases, specify an agent.
 5.  Click **Save**.
 
--   **[Importing and exporting generic processes](../topics/genProcess_import.md)**  
-You can move generic processes between servers by exporting and importing them.
-
-**Parent topic:** [Processes](../topics/comp_workflow.md)
-

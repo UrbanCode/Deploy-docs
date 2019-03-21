@@ -4,7 +4,7 @@ IBM® Rational® Asset Manager is a library management system for creating and g
 
 Install an agent that has access to the IBM Rational Asset Manager server.
 
-To learn more about Rational Asset Manager, see [Rational Asset Manager ](http://www-01.ibm.com/support/knowledgecenter/SSUS84_7.5.2/com.ibm.ram.web.nav.doc/helpindex_ram.html?cp=SSUS84_7.5.2%2F0).
+To learn more about Rational Asset Manager, see [Rational Asset Manager ](http://www-01.ibm.com/support/knowledgecenter/SSUS84_7.5.2/com.ram.web.nav.doc/helpindex_ram.html?cp=SSUS84_7.5.2%2F0).
 
 1.   In HCL® UrbanCode™ Deploy, click **Components**, and then click **Create Component**. 
 2.   In the Create Component window, specify a name and description for the component. 
@@ -40,7 +40,7 @@ To learn more about Rational Asset Manager, see [Rational Asset Manager ](http:/
 
         The state of the Rational® Asset Manager asset to load as a component source. Specify a value to limit the component to only assets with the specified state.
 
-        States are defined in lifecycles in Rational® Asset Manager. To learn more about lifecycles, see [Asset development and lifecycles](http://www-01.ibm.com/support/knowledgecenter/SSUS84_7.5.2/com.ibm.ram.doc/topics/c_asset_lifecycle.html) in the Rational® Asset Manager documentation.
+        States are defined in lifecycles in Rational® Asset Manager. To learn more about lifecycles, see [Asset development and lifecycles](http://www-01.ibm.com/support/knowledgecenter/SSUS84_7.5.2/com.ram.doc/topics/c_asset_lifecycle.html) in the Rational® Asset Manager documentation.
 
     -   ****Query****
 
@@ -121,6 +121,4 @@ To learn more about Rational Asset Manager, see [Rational Asset Manager ](http:/
 The new component is listed on the Components page. The Versions tab shows the available versions of the component. If you selected the **Import Versions Automatically** check box, versions are displayed automatically. Otherwise, click **Import New Versions** to show the available versions. Depending on the number and size of the artifacts, it might take time before the versions are displayed. To see the artifacts in the component, click a component version.
 
 Create processes for the component. See [Creating component processes](comp_process_configure.md).
-
-**Parent topic:** [Creating components from source-code management systems](../topics/comp_create_scm.md)
 

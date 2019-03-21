@@ -2,7 +2,7 @@
 
 A cloud project for the blueprint designer represents a tenant or project on a cloud system. You can give users access to cloud systems through cloud projects.
 
--   Connect the blueprint design server to a cloud. See [Connecting to clouds through the blueprint designer](../../com.edt.doc/topics/security_cloud_connection.md).
+-   Connect the blueprint design server to a cloud.
 -   On that cloud system, create one or more accounts and configure their access. The blueprint designer users use these functional IDs to access the cloud. You can create multiple functional IDs for each cloud and grant the functional IDs appropriate access for each team that you configure on the blueprint designer.
 -   If you do not use the Keystone server that was supplied with the engine, create one or more Keystone accounts. You can create one account with all permissions, including creating instances, or you can create separate accounts with different permissions. The accounts must be members of the administrative tenant. If you create one account, you can define access to resources for each team.
 
@@ -24,7 +24,7 @@ A cloud project for the blueprint designer represents a tenant or project on a c
     |**Password**|Enter the password for the functional account. If you use the Keystone server that is provided with the engine, the default value is `openstack1`.|
     |**Domain**|If your OpenStack identity service uses the Identity API v3, enter the domain that the project is on. If you use the Keystone server that is provided with the engine, the default value is `default`.|
     |**Identity URL**|Specify the location of the identity service, such as `http://example.com:5000/v2.0` or `http://example.com:5000/v3`. Do not include a trailing slash.|
-    |**Timeout in Mins**|Specify the amount of time in minutes to wait for a provision request to be completed. If you deploy HCL® UrbanCode™ Deploy components, allow sufficient time for the cloud to provision your instance, the agent to come online, and all processes to run. See [Creating a HCL UrbanCode Deploy timeout configuration file](../../com.edt.doc/topics/timeout_config.md#).|
+    |**Timeout in Mins**|Specify the amount of time in minutes to wait for a provision request to be completed. If you deploy HCL® UrbanCode™ Deploy components, allow sufficient time for the cloud to provision your instance, the agent to come online, and all processes to run.|
 
     |Property|Description|
     |--------|-----------|
@@ -71,7 +71,7 @@ A cloud project for the blueprint designer represents a tenant or project on a c
     |--------|-----------|
     |**Name**|Specify the name of the Google Cloud Platform cloud project.|
     |**Default Orchestration Service**|Select the orchestration service.|
-    |**Upload your Google Cloud credentials**|Upload the file for your Google Cloud service account key that contains your API key credentials. Only JSON key files are supported. See [Creating a key file for Google Cloud Platform](../../com.edt.doc/topics/cloud_connect_google_cloud_keyfile.md#).    1.  Click **Choose File**.
+    |**Upload your Google Cloud credentials**|Upload the file for your Google Cloud service account key that contains your API key credentials. Only JSON key files are supported.     1.  Click **Choose File**.
     2.  Select the JSON key file on your computer, and click **Open**. The JSON file name is in this format: `service\_account\_name-12\_digits\_of\_its\_private\_key\_id`
 |
 

@@ -8,5 +8,3 @@ In the Works Items tab, the approver can view the name of the process, when the 
 
 To respond to a request, display the Respond dialog box by clicking **Respond** in the Actions column. The approver has the option of leaving a comment. If a request is rejected, the process does not run. If approved, the process begins.
 
-**Parent topic:** [Creating an approval process](../topics/app_approvalCreate.md)
-

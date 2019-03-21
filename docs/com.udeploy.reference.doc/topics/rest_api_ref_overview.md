@@ -10,8 +10,6 @@ Many REST and command-line client commands have examples in their help topics. A
 The way that you authenticate to run REST commands depends on how the server is set up and the tool that you are using to run the commands.
 -   **[Deploying applications by using REST commands: An example](../../com.udeploy.reference.doc/topics/rest_api_ref_example.md)**  
 The following example describes how to use the REST commands to deploy an application.
--   **[Provisioning environments by using REST commands: An example](../../com.udeploy.reference.doc/topics/rest_api_ref_provision_example.md)**  
-The following example describes how to use the REST commands to provision an environment through the blueprint design server and engine.
 -   **[REST commands for the HCL UrbanCode Deploy server](../../com.udeploy.reference.doc/topics/rest_api_ref_commands.md)**  
 The following list shows the commands that are available for the HCL UrbanCode Deploy server.
 -   **[REST commands for the blueprint design server](../../com.udeploy.reference.doc/topics/rest_api_ref_commands_edt.md)**  

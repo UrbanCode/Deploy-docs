@@ -12,6 +12,8 @@ Quickly become productive with HCL® UrbanCode™ Deploy by following these step
 Many resources about effectively using HCL® UrbanCode™ Deploy are available. You can choose which learning resources to use depending on your role, skill level, interests, and the time you have.
 -   **[Security considerations for IBM UrbanCode Deploy](../topics/c_securityover.md)**  
 You can act to ensure that your installation is secure and set up user access controls.
+-   **[IBM and accessibility](../topics/ceIBMaccess.md)**  
+IBM® strives to provide products with usable access for everyone, regardless of age or ability.
 -   **[Notices](../topics/notices.md)**  
 
 

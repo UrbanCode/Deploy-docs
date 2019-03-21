@@ -12,7 +12,7 @@ See [Importing applications](app_import.md) for information about importing appl
 
     -   Typically the **Name** and **Description** correspond to the application you plan on deploying.
 
-        **Restriction:** If you deploy this application to a cloud that uses virtual system patterns, the application name cannot contain asterisk \(\*\), backslash \(\\\), or forward slash \(/\) characters. See [Modeling environments for clouds that use virtual system patterns](../../com.edt.doc/topics/blueprint_edit_clouds_vsp.md#).
+        **Restriction:** If you deploy this application to a cloud that uses virtual system patterns, the application name cannot contain asterisk \(\*\), backslash \(\\\), or forward slash \(/\) characters.
 
     -   To grant teams access to the application and set its security type, click the **plus sign** icon by **Teams**, select values from the **Team** and **Type** lists, and click **Add**.
     -   To create an application from a template, from the **Application Template** list, select the application template name. Then, from the **Application Template Version** list, select either the application template version number or to ensure that the application always meets the latest requirements of the template, **Always Use Latest**. See [Creating applications from application templates](app_template_using.md#).
@@ -33,11 +33,4 @@ After you create an application, you:
 -   Create an environment \([Creating environments](app_environment_create.md)\)
 -   Associate an agent with the environment \([Mapping resources and components to environments](app_environment_mapping.md)\)
 -   Create an application process \([Application processes](app_process.md)\)
-
--   **[Importing applications](../topics/app_import.md)**  
-If you exported an application, you can import the application on a different server. When you import an application, you can create an entirely new application or upgrade an existing one.
--   **[Exporting applications](../topics/app_export.md)**  
-Exporting applications creates a JSON file \(file extension json\) that contains the properties, components \(and their associated properties and processes\), and processes of the applications.
-
-**Parent topic:** [Applications](../topics/applications_ch.md)
 

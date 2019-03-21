@@ -80,5 +80,3 @@ abcdkey1234, Nov 22, 2013, SecretKeyEntry,
 
 Repeat this process to copy keys between other servers.
 
-**Parent topic:** [SSL configuration](../../com.udeploy.doc/topics/SSLinstall.md)
-

@@ -180,5 +180,5 @@ In following example, the source information in the `<inputs>` and `<input>` ele
 -   In deletions, wildcards must not be used for directory or file names.
 -   If a data set member name contains invalid characters, the characters are replaced by % to match any characters. Valid data set member name characters are `0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ@#$`.
 
-**Parent topic:** [Deploying to the z/OS platform](../topics/deploying_zos.md)
+**Parent topic:** [Deploying components to the z/OS platform](../topics/deploying_zos.md)
 

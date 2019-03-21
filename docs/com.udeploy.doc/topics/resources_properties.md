@@ -4,13 +4,6 @@ Properties can be created for most elements, including components, resources, ap
 
 A property represents a user-defined parameter. Properties are typically accessed in processes. For information about using properties, see [Referring to properties](ud_properties_using.md).
 
--   **[Retrieving property values from external files](../topics/props_from_http.md)**  
-You can specify that a property takes a value from an XML or JSON file over HTTP. Then, when you run the process, the server prompts you with a list of values from that file.
--   **[Passing properties from blueprints to the resource tree](../topics/env_props_BDS.md)**  
-From the blueprint designer, you can set component environment properties and component resource properties in blueprint source code.
-
-**Parent topic:** [Properties](../topics/ud_properties_overview.md)
-
 ## Setting properties manually
 
 You can create and edit properties on many elements by opening the element and going to its **Configuration** tab.

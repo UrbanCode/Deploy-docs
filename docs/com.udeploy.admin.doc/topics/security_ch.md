@@ -62,12 +62,8 @@ A role is a list of permissions that users have on the HCL UrbanCode Deploy serv
 Users and groups on the server are assigned roles when they are added to teams.
 -   **[Security types](../../com.udeploy.admin.doc/topics/security_types.md)**  
 Security types define categories of objects on the server. You can put all objects into a single category, or you can put them in separate categories and give roles different access rights to different categories.
--   **[Configuring security for the blueprint design server](../../com.edt.doc/topics/security_ov.md)**  
-The access control settings for the blueprint design server are similar to the settings for the HCL UrbanCode Deploy server. You can create teams and roles, assign users to those teams and roles, and assign resources to those teams.
 -   **[Tokens](../../com.udeploy.admin.doc/topics/security_token.md)**  
 Tokens provide authorization for agents, agent relays, users, and external systems or applications from the server. Agents use tokens when they run process steps and communicate with the HCL UrbanCode Deploy server and external services.
 -   **[Checking and resetting the API key and certificate for agents](../../com.udeploy.admin.doc/topics/api_key.md)**  
 You can view the API key of an agent and reset the key.
--   **[Security requirements on IBM z/OS computers](../../com.udeploy.admin.doc/topics/security_zos.md)**  
-Specific security definitions are used to secure HCL UrbanCode Deploy \(UCD\) functions for the IBM® z/OS® environment. To deploy applications to an IBM® z/OS® environment, the user accounts on the agent computer must have adequate access permissions. You must also identify specific directories and data sets to the authorized program facility.
 

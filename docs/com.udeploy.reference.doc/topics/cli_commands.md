@@ -63,19 +63,19 @@ Approve or reject an approval task
 -   **[copyResource](../../com.udeploy.api.doc/topics/udclient_copyresource.md)**  
 Copy a resource into a new parent
 -   **[copyVersion](../../com.udeploy.api.doc/topics/udclient_copyversion.md)**  
-Copy a component version with all of its properties
+ Copy a component version with all of its properties
 -   **[createAgentPool](../../com.udeploy.api.doc/topics/udclient_createagentpool.md)**  
 Create an agent pool
 -   **[createApplication](../../com.udeploy.api.doc/topics/udclient_createapplication.md)**  
 Create an application from a JSON file
 -   **[createApplicationFromTemplate](../../com.udeploy.api.doc/topics/udclient_createapplicationfromtemplate.md)**  
-Create an application with components from a JSON file
+ Create an application with components from a JSON file
 -   **[createApplicationProcess](../../com.udeploy.api.doc/topics/udclient_createapplicationprocess.md)**  
 Create an application process
 -   **[createAuthToken](../../com.udeploy.api.doc/topics/udclient_createauthtoken.md)**  
 Create an authorization token
 -   **[createBlueprintDesignerIntegration](../../com.udeploy.api.doc/topics/udclient_createblueprintdesignerintegration.md)**  
-Create a blueprint designer integration from a JSON file
+ Create a blueprint designer integration from a JSON file
 -   **[createComponent](../../com.udeploy.api.doc/topics/udclient_createcomponent.md)**  
 Create a component
 -   **[createComponentProcess](../../com.udeploy.api.doc/topics/udclient_createcomponentprocess.md)**  
@@ -115,7 +115,7 @@ Delete an agent pool
 -   **[deleteAgentProperty](../../com.udeploy.api.doc/topics/udclient_deleteagentproperty.md)**  
 Remove a property from an agent
 -   **[deleteAllDesiredInventoryVersions](../../com.udeploy.api.doc/topics/udclient_deletealldesiredinventoryversions.md)**  
-Delete all versions for a component in an environment
+ Delete all versions for a component in an environment
 -   **[deleteBlueprintDesignerIntegration](../../com.udeploy.api.doc/topics/udclient_deleteblueprintdesignerintegration.md)**  
 Delete a blueprint designer integration
 -   **[deleteComponentVersionPropDef](../../com.udeploy.api.doc/topics/udclient_deletecomponentversionpropdef.md)**  
@@ -125,7 +125,7 @@ Delete an environment
 -   **[deleteGroup](../../com.udeploy.api.doc/topics/udclient_deletegroup.md)**  
 Delete a group
 -   **[deleteRedundantDesiredInventoryVersions](../../com.udeploy.api.doc/topics/udclient_deleteredundantdesiredinventoryversions.md)**  
-Delete all redundant versions for a component in an environment
+ Delete all redundant versions for a component in an environment
 -   **[deleteResource](../../com.udeploy.api.doc/topics/udclient_deleteresource.md)**  
 Delete a resource
 -   **[deleteResourceProperty](../../com.udeploy.api.doc/topics/udclient_deleteresourceproperty.md)**  
@@ -159,13 +159,15 @@ Get information about all agent pools
 -   **[getAgentProperty](../../com.udeploy.api.doc/topics/udclient_getagentproperty.md)**  
 Get the value of a property on an agent
 -   **[getAgentPrototypes](../../com.udeploy.api.doc/topics/udclient_getagentprototypes.md)**  
-Get all agent prototypes with this resource template as their ancestor
+ Get all agent prototypes with this resource template as their ancestor
 -   **[getAgentStatuses](../../com.udeploy.api.doc/topics/udclient_getagentstatuses.md)**  
-Returns a JSONObject with count of agents to status. Expected format: \{ "ONLINE":4, "UPGRADE\_RECOMMENDED":1 \} Requires Settings Tab permission
+ Returns a JSONObject with count of agents to status. Expected format: \{ "ONLINE":4, "UPGRADE\_RECOMMENDED":1 \} Requires Settings Tab permission
 -   **[getAgents](../../com.udeploy.api.doc/topics/udclient_getagents.md)**  
 Get information about all agents
 -   **[getAllApplicationProcessesForApplication](../../com.udeploy.api.doc/topics/udclient_getallapplicationprocessesforapplication.md)**  
 Get all application processes of an application
+-   **[getAllLatestDesiredInventory](../../com.udeploy.api.doc/topics/udclient_getalllatestdesiredinventory.md)**  
+ Get all of the latest desired inventory for an environment.
 -   **[getAllTeams](../../com.udeploy.api.doc/topics/udclient_getallteams.md)**  
 List teams
 -   **[getAllUsersInRoleForTeam](../../com.udeploy.api.doc/topics/udclient_getallusersinroleforteam.md)**  
@@ -177,21 +179,21 @@ Get information about an application
 -   **[getApplicationProcess](../../com.udeploy.api.doc/topics/udclient_getapplicationprocess.md)**  
 Get information about an application process
 -   **[getApplicationProcessExecution](../../com.udeploy.api.doc/topics/udclient_getapplicationprocessexecution.md)**  
-Get an application process request's activity trace.
+ Get an application process request's activity trace.
 -   **[getApplicationProcessRequest](../../com.udeploy.api.doc/topics/udclient_getapplicationprocessrequest.md)**  
-Get information about a specific application process request
+ Get information about a specific application process request
 -   **[getApplicationProcessRequestStatus](../../com.udeploy.api.doc/topics/udclient_getapplicationprocessrequeststatus.md)**  
-Request the status of an application process request
+ Request the status of an application process request
 -   **[getApplicationProcessUnfilledProperties](../../com.udeploy.api.doc/topics/udclient_getapplicationprocessunfilledproperties.md)**  
-List properties that must be specified for a process
+ List properties that must be specified for a process
 -   **[getApplicationProperties](../../com.udeploy.api.doc/topics/udclient_getapplicationproperties.md)**  
 Get all application properties and their values.
 -   **[getApplicationProperty](../../com.udeploy.api.doc/topics/udclient_getapplicationproperty.md)**  
-Get the value of a custom property on a application
+ Get the value of a custom property on a application
 -   **[getApplications](../../com.udeploy.api.doc/topics/udclient_getapplications.md)**  
-Get information about all applications on the server
+ Get information about all applications on the server
 -   **[getApplicationsProcessRequests](../../com.udeploy.api.doc/topics/udclient_getapplicationsprocessrequests.md)**  
-Get information about all application process requests on the server
+ Get information about all application process requests on the server
 -   **[getApplicationsProcessRequestsCount](../../com.udeploy.api.doc/topics/udclient_getapplicationsprocessrequestscount.md)**  
 Count all application process requests
 -   **[getApprovalTasks](../../com.udeploy.api.doc/topics/udclient_getapprovaltasks.md)**  
@@ -203,23 +205,23 @@ Get all blueprints in an application
 -   **[getComponent](../../com.udeploy.api.doc/topics/udclient_getcomponent.md)**  
 Get information about a component
 -   **[getComponentEnvironmentProperties](../../com.udeploy.api.doc/topics/udclient_getcomponentenvironmentproperties.md)**  
-Get component environment properties for an environment
+ Get component environment properties for an environment
 -   **[getComponentProcess](../../com.udeploy.api.doc/topics/udclient_getcomponentprocess.md)**  
 Get information about a component process
 -   **[getComponentProcessRequest](../../com.udeploy.api.doc/topics/udclient_getcomponentprocessrequest.md)**  
-Get information about a specific component process request
+ Get information about a specific component process request
 -   **[getComponentProcessRequestCount](../../com.udeploy.api.doc/topics/udclient_getcomponentprocessrequestcount.md)**  
-Get the number of component process requests submitted after a certain time
+ Get the number of component process requests submitted after a certain time
 -   **[getComponentProcessRequests](../../com.udeploy.api.doc/topics/udclient_getcomponentprocessrequests.md)**  
-Get information about all component process requests
+ Get information about all component process requests
 -   **[getComponentProperties](../../com.udeploy.api.doc/topics/udclient_getcomponentproperties.md)**  
 Get values for component properties
 -   **[getComponentProperty](../../com.udeploy.api.doc/topics/udclient_getcomponentproperty.md)**  
 Get the value of a custom property on a component
 -   **[getComponentTemplates](../../com.udeploy.api.doc/topics/udclient_getcomponenttemplates.md)**  
-Get information about all component templates on the server
+ Get information about all component templates on the server
 -   **[getComponentVersionPropDefs](../../com.udeploy.api.doc/topics/udclient_getcomponentversionpropdefs.md)**  
-List the version property definitions for a component
+ List the version property definitions for a component
 -   **[getComponentVersions](../../com.udeploy.api.doc/topics/udclient_getcomponentversions.md)**  
 Get the versions of a component
 -   **[getComponents](../../com.udeploy.api.doc/topics/udclient_getcomponents.md)**  
@@ -233,21 +235,25 @@ Get all base resources for an environment
 -   **[getEnvironmentProperties](../../com.udeploy.api.doc/topics/udclient_getenvironmentproperties.md)**  
 Get environment property values
 -   **[getEnvironmentProperty](../../com.udeploy.api.doc/topics/udclient_getenvironmentproperty.md)**  
-Get the value of a custom property on an environment.
+ Get the value of a custom property on an environment.
+-   **[getEnvironmentResourceTree](../../com.udeploy.api.doc/topics/udclient_getenvironmentresourcetree.md)**  
+Get resource tree for an environment
 -   **[getEnvironmentsInApplication](../../com.udeploy.api.doc/topics/udclient_getenvironmentsinapplication.md)**  
-Get information about all environments in an application
+ Get information about all environments in an application
 -   **[getFirstUserWithEmail](../../com.udeploy.api.doc/topics/udclient_getfirstuserwithemail.md)**  
 Get the first user with a given e-mail address
 -   **[getHighWatermarks](../../com.udeploy.api.doc/topics/udclient_gethighwatermarks.md)**  
 Return high watermarks for agent usage
+-   **[getLatestDesiredInventory](../../com.udeploy.api.doc/topics/udclient_getlatestdesiredinventory.md)**  
+ Get the latest desired inventory for an environment.
 -   **[getLatestSnapshotForEnvironment](../../com.udeploy.api.doc/topics/udclient_getlatestsnapshotforenvironment.md)**  
 Get the latest snapshot deployed to an environment
 -   **[getOverlappingArtifacts](../../com.udeploy.api.doc/topics/udclient_getoverlappingartifacts.md)**  
 Get all artifacts overlapped in the given version
 -   **[getRelayStatuses](../../com.udeploy.api.doc/topics/udclient_getrelaystatuses.md)**  
-Returns a JSONObject with count of agent relays to status. Expected format: \{ "ONLINE":4, "OFFLINE":1, \} Requires Settings Tab permission.
+ Returns a JSONObject with count of agent relays to status. Expected format: \{ "ONLINE":4, "OFFLINE":1, \} Requires Settings Tab permission.
 -   **[getRelays](../../com.udeploy.api.doc/topics/udclient_getrelays.md)**  
-Get information about all relays a user has access to.
+ Get information about all relays a user has access to.
 -   **[getResource](../../com.udeploy.api.doc/topics/udclient_getresource.md)**  
 Get information about a resource
 -   **[getResourceProperties](../../com.udeploy.api.doc/topics/udclient_getresourceproperties.md)**  
@@ -257,15 +263,15 @@ Get a resource property
 -   **[getResourceTemplate](../../com.udeploy.api.doc/topics/udclient_getresourcetemplate.md)**  
 Get a resource template
 -   **[getResourceTemplateChildren](../../com.udeploy.api.doc/topics/udclient_getresourcetemplatechildren.md)**  
-Get all children or descendants of a resource template
+ Get all children or descendants of a resource template
 -   **[getResources](../../com.udeploy.api.doc/topics/udclient_getresources.md)**  
 List resources
 -   **[getResourcesWithComponentVersion](../../com.udeploy.api.doc/topics/udclient_getresourceswithcomponentversion.md)**  
-List resources that have a specified component version
+ List resources that have a specified component version
 -   **[getSnapshot](../../com.udeploy.api.doc/topics/udclient_getsnapshot.md)**  
 Get information about a snapshot
 -   **[getSnapshotConfiguration](../../com.udeploy.api.doc/topics/udclient_getsnapshotconfiguration.md)**  
-Get the list of configuration objects in a snapshot
+ Get the list of configuration objects in a snapshot
 -   **[getSnapshotVersions](../../com.udeploy.api.doc/topics/udclient_getsnapshotversions.md)**  
 Get the list of versions in a snapshot
 -   **[getSnapshotsInApplication](../../com.udeploy.api.doc/topics/udclient_getsnapshotsinapplication.md)**  

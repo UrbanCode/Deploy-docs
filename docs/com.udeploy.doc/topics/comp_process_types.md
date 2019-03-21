@@ -55,5 +55,3 @@ You use the following component process types:
     Each process of this type is listed as an available application process step, and you can add its step to call the process. You can also add a step that can call this type of process, such as the Apply Configuration step, to use this type of component process in an application process.
 
 
-**Parent topic:** [Component processes](../topics/intro_component_processes.md)
-

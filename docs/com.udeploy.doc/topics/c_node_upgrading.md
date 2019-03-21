@@ -16,10 +16,4 @@ When you upgrade the server from version 6.0.1.1 or earlier to a version later t
 The server installation files include a script that migrates the server database from Derby to another database system. You can not migrate from any database other than Derby.
 -   **[Automatic upgrades of files stored in the server CodeStation](../../com.udeploy.install.doc/topics/t_upgrade_to_new_format.md)**  
 When you upgrade to HCL UrbanCode Deploy version 6.1 or later, the server automatically upgrades all artifacts that are stored in its CodeStation.
--   **[Upgrading the blueprint design server](../../com.edt.doc/topics/upgrade_server_bds.md)**  
-To upgrade the blueprint design server, stop the Tomcat server, install the new version, and restart the blueprint design server. When you upgrade the blueprint design server, you must also upgrade the engine.
--   **[Upgrading engines](../../com.edt.doc/topics/upgrade_engine.md)**  
-The instructions that you use to upgrade an engine depends on how you installed the engine. When you upgrade the engine, you must also upgrade the blueprint design server.
--   **[Moving blueprints and configuration files](../../com.edt.doc/topics/migrate_ov.md)**  
-After you upgrade from a version of the blueprint design server earlier than version 6.1.1, you must move blueprints and configuration files from the file system to the Git repository.
 

@@ -16,14 +16,6 @@ To configure a cluster of servers, set up a shared database and file system for 
 You can add new servers to a cluster at installation time, or you can move existing servers to be part of a cluster.
 -   **[Converting a stand-alone server to high availability](../topics/ha_convert_server.md)**  
 You can convert an HCL® UrbanCode™ Deploy server into the first node of a high-availability cluster.
--   **[Setting up clusters of blueprint design servers](../../com.edt.doc/topics/ha_config_bds.md)**  
-You can set up clusters of blueprint design servers for a high-availability configuration. As with setting up clusters of servers, you store shared files on a system and set multiple blueprint design servers to use those files.
--   **[Adding blueprint design servers to clusters](../../com.edt.doc/topics/ha_add_bds.md)**  
-To add a blueprint design server to a cluster, connect it to the shared database and network storage. Then, configure the load balancer to send traffic to it.
--   **[Setting up clusters of engines](../../com.edt.doc/topics/ha_config_engine.md)**  
-To set up clusters of engines, you store shared files on a system and set multiple engines to use those files.
--   **[Adding engines to clusters](../../com.edt.doc/topics/ha_add_engine.md)**  
-To add an engine to a cluster, connect it to the shared database. Then, configure the load balancer to send traffic to it.
 -   **[Creating cluster connections](../../com.udeploy.admin.doc/topics/settings_network.md)**  
 A server connection to a cluster \(formerly known as a network relay\) is a setting on an HCL® UrbanCode™ Deploy server that opens a Java™ Message Service \(JMS\) port for communication with other servers. These cluster connections are necessary for servers in a cluster to communicate.
 

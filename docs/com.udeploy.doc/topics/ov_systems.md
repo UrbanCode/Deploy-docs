@@ -5,7 +5,7 @@ HCL® UrbanCode™ Deploy includes several systems, including a server and one o
 The following system topologies, including diagrams, are shown. For explanation of the system components, see the [Description of systems](#description_system).
 
 -   [Core topology](#core)
--   [Blueprint design topologies](#blueprint_design)
+-   [\#blueprint\_design](#blueprint_design)
 -   [Multi-region topology](#multi_region)
 -   [High-availability clustered topologies](#ha_cluster)
 -   [Disaster recovery topologies](#disaster_recovery)
@@ -16,27 +16,11 @@ The following system topologies, including diagrams, are shown. For explanation 
 
 The core installation of HCL UrbanCode Deploy includes a server, agents, and a license server. Clients access the server through web browsers, the REST API, or the command-line client. Agents can be installed on cloud environments, virtual machines \(VMs\), containers, or physical systems; the agents are shown on cloud systems in the following diagrams, but they can be installed on many different systems.
 
-With this topology, the server can create environments on clouds that use virtual system patterns \(VSPs\), such as IBM® Cloud Orchestrator and IBM PureApplication® System. For more information about supported clouds that use VSPs, see [Modeling environments for clouds that use virtual system patterns](../../com.edt.doc/topics/blueprint_edit_clouds_vsp.md#). To create environments on other clouds such as Amazon Web Services, SoftLayer®, VMware vCenter, and Microsoft™ Azure, you must install the blueprint design server and at least one engine, as described in the blueprint design topologies.
+With this topology, the server can create environments on clouds that use virtual system patterns \(VSPs\), such as IBM® Cloud Orchestrator and IBM PureApplication® System. To create environments on other clouds such as Amazon Web Services, SoftLayer®, VMware vCenter, and Microsoft™ Azure, you must install the blueprint design server and at least one engine, as described in the blueprint design topologies.
 
 ![A simple topology that consists of the server, agents, a license server, a cloud, and the interfaces to the server, including web browsers, the command-line client, and the REST API](../images/ov_systems_a.gif)
 
 To install the core components, see [Installing HCL UrbanCode Deploy](../../com.udeploy.install.doc/topics/install_ch.md#).
-
-## Blueprint design topologies
-
-To work with blueprints on clouds via OpenStack Heat, including OpenStack-based clouds, Amazon Web Services, SoftLayer, VMware vCenter, and Microsoft Azure, you must apply a topology that includes the blueprint design server and engine. \(In previous versions, these systems were part of IBM UrbanCode Deploy with Patterns.\)
-
-**Installing a standalone engine**
-
-To deploy environments to non-OpenStack clouds, such as Amazon Web Services, SoftLayer, VMware, Google Cloud, and Microsoft Azure, you install the blueprint design server and Heat engine through HCL UrbanCode Deploy. The following diagram shows a typical topology for this use case:
-
-![A topology that includes the blueprint design server and an engine for use with non-OpenStack clouds](../images/ov_systems_b.gif)
-
-**Extending Heat orchestration engines**
-
-To deploy environments to clouds that are based on OpenStack, you install the blueprint design server and extend the Heat engine that is associated to the cloud. In this case, you do not use the Heat engine that comes with HCL UrbanCode Deploy. The following diagram shows a typical topology for this use case:
-
-![A topology that includes the blueprint design server and an engine for use OpenStack-based clouds](../images/ov_systems_j.gif)
 
 ## Multi-region topology
 
@@ -113,18 +97,6 @@ For more information about ports, see [System requirements and performance consi
 -   **Agent relays**
 
     An agent relay is a communication proxy for agents that are located behind a firewall or in another network location. See [Agent relays](arch_agent_relays.md#).
-
--   **Blueprint design server**
-
-    This server hosts the blueprint designer and controls access to blueprints, the files that describe network topology for applications that you provision to different clouds. It also hosts the cloud discovery service, which provides information about the available cloud resources to the blueprint designer. \(In previous versions, this system was the IBM® UrbanCode™ Deploy with Patterns design server.\) For more information about using the blueprint designer, see [Modeling environments for clouds through OpenStack Heat](../../com.edt.doc/topics/blueprint_edit_clouds.md#).
-
--   **Engine**
-
-    The Heat engine is an installation of the OpenStack Heat orchestration engine with IBM® extensions. The engine manages cloud infrastructure, provisioning resources from clouds, updating those resources, and deleting them. To connect to non-OpenStack clouds, you install the Heat engine that is provided with HCL® UrbanCode™ Deploy, which includes the extensions. To connect to OpenStack clouds, you extend an existing Heat engine by adding the extensions to it. \(In previous versions, this system was the IBM® UrbanCode™ Deploy with Patterns Heat engine.\)
-
--   **Rational® Common Licensing license server**
-
-    The license server provides licenses to the server. For more information on the license server, see [IBM® Rational® Common Licensing](http://www-01.ibm.com/support/knowledgecenter/SSSTWP).
 
 -   **Keystone Identity Service**
 

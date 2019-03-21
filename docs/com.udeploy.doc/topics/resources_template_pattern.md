@@ -12,8 +12,6 @@ To provision dynamic environments from a cloud system, you must create a virtual
     -   IBM Workload Deployer version 3.1.0.6 or later
     Within these cloud systems, you can provision the virtual resources in environment profiles or in cloud groups. You can also assign the virtual resources to IP groups, but only when you assign the resources to an environment profile first. For more information, see [Creating environments](app_environment_create.md). You can also use virtual images with no more than one virtual network card. HCL® UrbanCode™ Deploy does not support selecting different flavors of virtual resources or virtual nodes that have a multiplicity greater than 1.
 
-    To connect to OpenStack and OpenStack-based clouds, SoftLayer®, Amazon Elastic Compute Cloud, VMware vCenter, or Microsoft™ Azure, see [Connecting to clouds through the blueprint designer](../../com.edt.doc/topics/security_cloud_connection.md).
-
 -   Configure the cloud system as described in [Configuring virtual system pattern-based clouds](../../com.udeploy.install.doc/topics/cloud_configure.md).
 
 The virtual system pattern specifies one or more virtual images. The pattern also lists the script packages to apply to the virtual images. These scripts perform tasks such as opening the firewall and installing the HCL UrbanCode Deploy agent.
@@ -44,6 +42,4 @@ The virtual system pattern specifies one or more virtual images. The pattern als
 9.  Click **Done editing** to save the pattern. 
 
 Now you can import this pattern to a resource template. See [Importing resource templates from clouds](resources_template_import_cloud.md)
-
-**Parent topic:** [Modeling environments for clouds that use virtual system patterns](../../com.edt.doc/topics/blueprint_edit_clouds_vsp.md)
 

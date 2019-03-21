@@ -2,7 +2,7 @@
 
 You can use IBM® Rational® Asset Manager to store and catalog build outputs, test results, and related packages as part of component processes in HCL® UrbanCode™ Deploy.
 
-Rational Asset Manager is a collaborative software development tool that organizations can use to identify, manage, and govern the design, development, and consumption of software assets and services. To learn more about Rational Asset Manager, see the [Rational Asset Manager information center](http://www-01.ibm.com/support/knowledgecenter/SSUS84_7.5.2/com.ibm.ram.web.nav.doc/helpindex_ram.html?cp=SSUS84_7.5.2%2F0).
+Rational Asset Manager is a collaborative software development tool that organizations can use to identify, manage, and govern the design, development, and consumption of software assets and services. To learn more about Rational Asset Manager, see the [Rational Asset Manager information center](http://www-01.ibm.com/support/knowledgecenter/SSUS84_7.5.2/com.ram.web.nav.doc/helpindex_ram.html?cp=SSUS84_7.5.2%2F0).
 
 Rational Asset Manager integrates with HCL UrbanCode Deploy in two ways: as a source configuration type, and as a plug-in. To learn more about using Rational Asset Manager as a source configuration type, see [Creating components from Rational Asset Manager](comp_create_ram.md). Unlike other HCL UrbanCode Deploy plug-ins, you download the Rational Asset Manager plug-in from the Rational Asset Manager server.
 

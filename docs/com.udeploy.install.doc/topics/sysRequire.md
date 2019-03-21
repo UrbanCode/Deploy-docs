@@ -66,7 +66,6 @@ The blueprint design server must meet the following requirements:
     **Note:** If you install a heat engine, you can choose to install a Keystone server during the engine installation process.
 
 -   If you install the blueprint design server on a Windows operating system, your paths cannot contain more than 250 characters.
--   Virtual images must meet the requirements in [Configuring images for use with the blueprint designer](../../com.edt.doc/topics/cloud_connect_vm_requirements.md).
 -   The blueprint design server requires a Heat orchestration engine. By default, the blueprint design server uses port 8004 to communicate with the engine.
 
 The Heat orchestration engine must meet the following requirements:
@@ -103,7 +102,6 @@ The blueprint designer is compatible with the following cloud systems:
 
 -   IBM SoftLayer®
 -   Amazon Elastic Compute Cloud
--   VMware vCenter Server 5.5 to 6.0. To model network resources, VMware NSX is required; see [Modeling new network resources](../../com.edt.doc/topics/blueprint_network_create.md).
 -   VMware vRealize Automation 7.0 and 7.1
 -   OpenStack and clouds that are based on OpenStack, such as IBM Cloud Orchestrator, version 2.4. The blueprint design server supports OpenStack and OpenStack-based clouds on the Icehouse, Juno, and Kilo levels. To provision environments on these clouds, an engine that has the matching OpenStack version is required.
 -   Microsoft™ Azure

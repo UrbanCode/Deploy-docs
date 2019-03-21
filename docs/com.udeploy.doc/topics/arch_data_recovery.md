@@ -6,8 +6,6 @@ You can restore the server, the blueprint design server, and the engine all at o
 
 **Note:** These instructions are for an engine that you installed through HCL® UrbanCode™ Deploy. If you extended a different Heat engine, follow the backup and restore instructions from the engine vendor.
 
-**Parent topic:** [Backing up and recovering](../../com.edt.doc/topics/backup_recover.md)
-
 ## Restore a backup of the server
 
 1.  To restore the server from a backup, follow these steps:

@@ -15,7 +15,5 @@ In the blueprint designer, by default you edit deployment sequences in a tree fo
 
 Now the **Deployment Sequence** resource can be used to create a sequential list of components to deploy, instead of a tree.
 
-**Parent topic:** [Blueprint design server configuration](../../com.edt.doc/topics/c_node_administering_bds.md)
-
 **Parent topic:** [Managing security](../../com.udeploy.admin.doc/topics/security_ch.md)
 

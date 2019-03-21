@@ -49,5 +49,3 @@ HCL® UrbanCode™ Deploy Version 6.2.4 includes several changes to make install
 
 **Parent topic:** [Upgrading IBM z/OS agents](../../com.udeploy.install.doc/topics/upgrade_zOS_agents.md)
 
-**Parent topic:** [Upgrading IBM z/OS agents](../../com.udeploy.install.doc/topics/upgrade_zOS_agents.md)
-

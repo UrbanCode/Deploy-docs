@@ -42,5 +42,3 @@ After you install the z/OS agent, customize and verify TSO/ISPF client gateway b
     The ISPF.conf file that HCL UrbanCode Deploy uses is in the agent install dir/conf/toolkit directory.
 
 
-**Parent topic:** [Installing the z/OS agent](../../com.udeploy.install.doc/topics/zos_installing_ov.md)
-
