@@ -1,11 +1,9 @@
 # UrbanCode Deploy documentation
 
-Welcome to the UrbanCode Deploy documentation, where you can find information about how to install, maintain, and use UrbanCode Deploy.
+Welcome to the UrbanCode Deploy documentation Center, where you can find everything you need to install, maintain, and use UrbanCode Deploy.
 
 
-## Getting started
-
-
+These topics can help you get started:
 
 [Product overview](/com.ibm.deploy.doc/topics/intro_ch.md)
 
